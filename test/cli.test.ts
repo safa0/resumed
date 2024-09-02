@@ -157,18 +157,14 @@ describe('render', () => {
 
     vi.mocked(readFile).mockResolvedValueOnce(JSON.stringify(resume))
 
-    await cli.parse(['', '', 'render'])
+    expect(() => cli.parse(['', '', 'render'])).rejects.toThrow(
+      'No theme to use. Please specify one via the --theme option or the .meta.theme field of your resume.',
+    )
 
     expect(readFile).toHaveBeenCalledTimes(1)
     expect(readFile).toHaveBeenCalledWith('resume.json', 'utf-8')
 
-    expect(errorSpy).toHaveBeenCalledTimes(1)
-    expect(errorSpy.mock.calls[0][0]).toMatchInlineSnapshot(
-      `"No theme to use. Please specify one via the --theme option or the .meta.theme field of your resume."`,
-    )
-
     expect(render).not.toHaveBeenCalled()
-    expect(process.exitCode).toBe(1)
   })
 
   it('asks if theme is installed if theme cannot be loaded and exits with failure code', async () => {
@@ -176,18 +172,16 @@ describe('render', () => {
 
     vi.mocked(readFile).mockResolvedValueOnce(JSON.stringify(resume))
 
-    await cli.parse(['', '', 'render', '--theme', 'jsonresume-theme-missing'])
+    expect(() =>
+      cli.parse(['', '', 'render', '--theme', 'jsonresume-theme-missing']),
+    ).rejects.toThrow(
+      'Could not load theme jsonresume-theme-missing. Is it installed?',
+    )
 
     expect(readFile).toHaveBeenCalledTimes(1)
     expect(readFile).toHaveBeenCalledWith('resume.json', 'utf-8')
 
-    expect(errorSpy).toHaveBeenCalledTimes(1)
-    expect(errorSpy.mock.calls[0][0]).toMatchInlineSnapshot(
-      `"Could not load theme jsonresume-theme-missing. Is it installed?"`,
-    )
-
     expect(render).not.toHaveBeenCalled()
-    expect(process.exitCode).toBe(1)
   })
 })
 
