@@ -40,6 +40,9 @@ $ resumed --help
   Options
     -v, --version    Displays current version
     -h, --help       Displays this message
+
+  Examples
+  param="jsonresume-theme-stackoverflow"; echo $param | sed 's/.*-//' | xargs -I {} bash -c 'resumed render PO_resume.json -o PO_resume_{}.html --theme $0' "$param"
 ```
 
 See [examples](examples).
