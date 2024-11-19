@@ -77,7 +77,7 @@
     {
       "company": "MM Consulting",
       "name": "MM Consulting",
-      "position": "Senior Consultant",
+      "position": "Senior Consultant / Software Architect",
       "startDate": "2022",
       "summary": "",
       "highlights": [
@@ -88,8 +88,8 @@
       ]
     },
     {
-      "company": "DXC Technology",
-      "name": "DXC Technology",
+      "company": "Semcon / DXC Technology",
+      "name": "Semcon / DXC Technology",
       "position": "Product Owner",
       "startDate": "2020",
       "endDate": "2022",
@@ -105,8 +105,8 @@
       ]
     },
     {
-      "company": "Yeti Move",
-      "name": "Yeti Move",
+      "company": "Semcon / Yeti Move",
+      "name": "Semcon / Yeti Move",
       "position": "Senior Software Engineer",
       "startDate": "2019",
       "endDate": "2020",
@@ -117,7 +117,21 @@
         "Translated business logic between cloud servers and PLCs, ensuring accurate updates from sensors.",
         "Refactored the component from the ground up, incorporating state machines, communication layers, and fail-safe mechanisms.",
         "Managed a comprehensive fleet management solution, including user portal, cloud server, and embedded systems.",
-        "Responsible for commersialization and commisioning of the solution in the field."
+        "Responsible for commercialization and commisioning of the solution in the field."
+      ]
+    },
+    {
+      "company": "Semcon",
+      "name": "Semcon",
+      "position": "Senior Software Engineer",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Software Developer - Multiclient (2019/2020) Developed an AI-driven virtual assistant for natural language information retrieval, similar to Google Home and Alexa.",
+      "highlights": [
+        "Assisted Data scientist with data pipelines and AI systems, focusing on natural language understanding and speech recognition.",
+        "Built a microservice architecture with backend components and communication managed in Python.",
+        "Integration and customization of speech recognition system, Mozilla’s DeepSpeech and custom post-processing scripts.",
+        "Created ontology generation and retrieval processes using Stanford NLP and sequence-to-sequence and hourglass models."
       ]
     },
     {
@@ -126,7 +140,7 @@
       "position": "Senior Software Engineer (L6) / Product Owner",
       "startDate": "2012",
       "endDate": "2018",
-      "summary": "Ericsson, Packet Core (EPC) provies internet backbone for mobile operators.",
+      "summary": "Ericsson, Packet Core (EPC 4g/5g) provides internet backbone and core network functionality for mobile communications.",
       "highlights": [
         "From 2012 to 2018, I held diverse roles at Ericsson, contributing to software development, team leadership, and tool implementation to optimize processes",
         "Enhanced mini-link product efficiency by introducing tools like profilers and IWYU (Include What You Use)",
@@ -149,12 +163,6 @@
         "Conducted empirical measurements of inter-core and intra-core communication times within AUTOSAR environments, identifying potential bottlenecks and informing optimization strategies",
         "Evaluated the impact of cross-core communication overhead on system performance, providing insights for efficient software distribution across multicore processors"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
     }
   ]
 }
