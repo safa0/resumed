@@ -5,11 +5,12 @@
   "basics": {
     "name": "Sam Safaei",
     "phone": "tel:+1-647-562-4007",
-    "label": "Product Owner / Project Manager / Software Architect",
+    "label": "Product Management / Software Architect",
     "image": "https://www.gravatar.com/avatar/e99b5b7b9bb087ee76a6c9f1c6c47290?s=500",
     "summary": "With over 15 years of experience, I have excelled in product and software project management, engineering, test and leadership across various stages of the software lifecycle. As a Product Owner, Project Manager, and Senior Consultant, I have driven requirement gathering, roadmap prioritization, and strategic cross-functional collaboration to deliver complex software solutions and guide organizations in achieving modular, scalable architectures. My expertise includes client interaction, agile leadership, and backlog management, underpinned by a strong foundation in software development using C++, Python, and DevOps practices. I bring a proven ability to align technical execution with business goals, optimize processes, and deliver impactful, high-quality solutions in dynamic environments while advising clients on strategic software transformations.",
     "email": "sam.c.safaei@gmail.com",
-    "location": {
+    "citizenship": "Sweden",
+    "locationTemp": {
       "city": "Toronto",
       "countryCode": "CA"
     },
