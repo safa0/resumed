@@ -6,7 +6,15 @@
     "start": "resumed --theme jsonresume-theme-even"
   },
   "dependencies": {
+    "jsonresume-theme-dev-ats": "^1.0.1",
+    "jsonresume-theme-engineering-leader": "^1.0.22",
     "jsonresume-theme-even": "^0.17.0",
+    "jsonresume-theme-kittyfarren": "^1.0.15",
+    "jsonresume-theme-ludoo": "^0.0.4",
+    "jsonresume-theme-printclassy": "^1.1.1",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "jsonresume-theme-straightforward-with-telephone": "^0.2.4",
+    "jsonresume-themeutils": "^1.4.3",
     "resumed": "^3.0.0"
   }
 }
