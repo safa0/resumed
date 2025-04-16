@@ -25,9 +25,14 @@
   },
   "certificates": [
     {
-      "name": "Machine Learning Specialization",
-      "date": "2021-05-01",
-      "issuer": "DeepLearning.AI"
+      "name": "Certified Product Owner",
+      "date": "2021-09-01",
+      "issuer": "DXC Technology"
+    },
+    {
+      "name": "AI Product Management",
+      "date": "2024-06-01",
+      "issuer": "EPFL University, Switzerland"
     }
   ],
   "education": [
@@ -39,7 +44,7 @@
       "institution": "Chalmers University of Technology"
     }
   ],
-  "skills": [
+  "_skills": [
     {
       "keywords": [
         "AUTOSAR",
@@ -50,38 +55,14 @@
     },
     {
       "keywords": [
-        "Docker",
-        "Git",
-        "Linux",
-        "Jira",
-        "Confluence",
-        "Kubernetes",
-        "Jenkins",
-        "Microsoft Project",
-        "Atlasian"
-      ],
-      "name": "Tools"
-    },
-    {
-      "keywords": [
-        "C++",
-        "CMake",
-        "Python",
-        "Embedded Systems",
-        "Design Patterns",
-        "microservices",
-        "Domain Driven Design"
-      ],
-      "name": "Software Development & Programming"
-    },
-    {
-      "keywords": [
         "NLP",
         "Speech recognition", 
         "Ontology generation"
       ],
       "name": "AI & Machine Learning"
-    },
+    }
+  ],
+  "skills": [
     {
       "keywords": [
         "Product Ownership",
@@ -93,7 +74,7 @@
         "User Story Mapping",
         "Project Planning"
       ],
-      "name": "Product & Project Management"
+      "name": "Project Management"
     },
      {
        "keywords": [
@@ -107,7 +88,27 @@
          "Mentoring"
        ],
        "name": "Leadership & Soft Skills"
-     }
+     },
+    {
+      "keywords": [
+        "Docker",
+        "Git",
+        "Jira",
+        "Confluence",
+        "Kubernetes",
+        "Jenkins",
+        "Microsoft Project",
+        "Atlasian",
+        "C++",
+        "CMake",
+        "Python",
+        "Embedded Systems",
+        "Design Patterns",
+        "microservices",
+        "Domain Driven Design"
+      ],
+      "name": "Development & Tools"
+    }
   ],
   "work": [
     {
@@ -127,8 +128,8 @@
       "company": "Semcon / DXC Technology",
       "name": "Semcon / DXC Technology",
       "position": "Product Owner",
-      "startDate": "2020",
-      "endDate": "2022 November",
+      "startDate": "2020-08-01",
+      "endDate": "2022-10-01",
       "summary": "DXC Technology Automotive Line of Business provides software solutions for automotive OEMs and Tier 1 suppliers. Our team of 60-members, Service Layer, supplies the Android Automotive stack for in-vehicle-infotainment (IVI).",
       "highlights": [
         "Product Owner for Service Layer, Audio, Radio, Media, and voice control modules",
@@ -141,12 +142,12 @@
       ]
     },
     {
-      "company": "Semcon / Yeti Move",
-      "name": "Semcon / Yeti Move",
+      "company": "Semcon / YetiMove",
+      "name": "Semcon / YetiMove",
       "position": "Senior Software Engineer",
-      "startDate": "2019",
-      "endDate": "2020",
-      "summary": "Yeti Move delivers autonomous technology and cloud-based fleet management, starting with self-driving snow ploughs for airports and expanding to heavy machinery solutions. We hold major global contracts, including autonomous snow removal for Swedavia airports.",
+      "startDate": "2019-01-01",
+      "endDate": "2020-08-01",
+      "summary": "YetiMove is a startup delivering autonomous technology and cloud-based fleet management, starting with self-driving snow ploughs for airports and expanding to heavy machinery solutions. We hold major global contracts, including autonomous snow removal for Swedavia airports.",
       "highlights": [
         "Designed, implemented, and maintained the equipment control components as component owner.",
         "Facilitated communication between the server, PLC components, and autonomous decision-making systems.",
@@ -196,8 +197,7 @@
       "summary": "Volvo Trucks, Advanced Technology & Research",
       "highlights": [
         "Developed a predictive model for assessing speedup gains when migrating software from single-core to multicore platforms, enhancing performance forecasting in automotive systems",
-        "Conducted empirical measurements of inter-core and intra-core communication times within AUTOSAR environments, identifying potential bottlenecks and informing optimization strategies",
-        "Evaluated the impact of cross-core communication overhead on system performance, providing insights for efficient software distribution across multicore processors"
+        "Conducted empirical measurements of inter-core and intra-core communication times within AUTOSAR environments, identifying potential bottlenecks and informing optimization strategies"
       ]
     }
   ]
