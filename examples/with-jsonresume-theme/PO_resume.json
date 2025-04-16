@@ -1,13 +1,13 @@
 {
   "meta": {
-    "theme": "professional"
+    "theme": "stackoverflow"
   },
   "basics": {
     "name": "Sam Safaei",
     "phone": "tel:+46-72-529-8836",
-    "label": "Product Management / Software Architect",
+    "label": "Product Management / Software Architecture",
     "image": "./tmp_1744713085321.jpg",
-    "summary": "With over 15 years of experience, I have excelled in product and software project management, engineering, test and leadership across various stages of the software lifecycle. As a Product Owner, Project Manager, and Senior Consultant, I have driven requirement gathering, roadmap prioritization, and strategic cross-functional collaboration to deliver complex software solutions and guide organizations in achieving modular, scalable architectures. My expertise includes client interaction, agile leadership, and backlog management, underpinned by a strong foundation in software development using C++, Python, and DevOps practices. I bring a proven ability to align technical execution with business goals, optimize processes, and deliver impactful, high-quality solutions in dynamic environments while advising clients on strategic software transformations.",
+    "summary": "With over 15 years of experience, I have excelled in product and software project management, software engineering, test and verification, and leadership across various stages of the software lifecycle. As a Product Owner, Project Manager, and Senior Consultant, I have driven requirement gathering, roadmap prioritization, and strategic cross-functional collaboration to deliver complex software solutions and guide organizations in achieving modular, scalable architectures. My expertise includes client interaction, agile leadership, and backlog management, underpinned by a strong foundation in software development using C++, Python, and DevOps practices. I bring a proven ability to align technical execution with business goals, optimize processes, and deliver impactful, high-quality solutions in dynamic environments while advising clients on strategic software transformations.",
     "email": "sam.c.safaei@gmail.com",
 
     "citizenship": "Sweden",
@@ -35,7 +35,7 @@
       "endDate": "2012-06-12",
       "startDate": "2010-09-01",
       "area": "Computer Science",
-      "studyType": "Master",
+      "studyType": "M.Sc.",
       "institution": "Chalmers University of Technology"
     }
   ],
@@ -77,24 +77,50 @@
     {
       "keywords": [
         "NLP",
-        "Speech recognition",
+        "Speech recognition", 
         "Ontology generation"
       ],
       "name": "AI & Machine Learning"
-    }
+    },
+    {
+      "keywords": [
+        "Product Ownership",
+        "Scaled Agile Framework (SAFe)",
+        "Backlog Prioritization",
+        "Roadmap Development",
+        "Requirements Engineering",
+        "MVP Definition",
+        "User Story Mapping",
+        "Project Planning"
+      ],
+      "name": "Product & Project Management"
+    },
+     {
+       "keywords": [
+         "Stakeholder Management",
+         "Client Relations",
+         "Cross-functional Leadership",
+         "Strategic Communication",
+         "Change Management",
+         "Problem Solving",
+         "Conflict Resolution",
+         "Mentoring"
+       ],
+       "name": "Leadership & Soft Skills"
+     }
   ],
   "work": [
     {
       "company": "Modular Management",
       "name": "Modular Management",
       "position": "Senior Consultant / Software Architect",
-      "startDate": "2022",
-      "summary": "",
+      "startDate": "2022-10-01",
+      "summary": "Consulting firm focused on modular product architecture and platform strategy. We assist clients to align software requirements with scalable platform architectures, enabling reuse, reducing complexity, and moving from isolated product developments to modular scalable platform developemt enabling several product verticals.",
       "highlights": [
-        "Coach and guide clients in developing and revising software architectures to ensure long-term platform reusability",
-        "Collaborate with client architects and C-level leadership to align software, hardware, and mechanical design strategies",
-        "Challenge conventional approaches by addresssing critical pain points to drive cross-disciplinary alignment",
-        "Facilitate defining and integrating business goals into architectural planning and execution"
+        "Led cross-functional workshops utilizing Modular Function Deployment (MFD) to develop modular product architectures that balance customer needs, engineering requirements, and business strategies",
+        "Collaborated with client leadership to align software, hardware, and mechanical design strategies, promoting cross-disciplinary integration and platform scalability",
+        "Identified and addressed critical pain points in existing architectures, fostering cross-disciplinary alignment and driving strategic improvements",
+        "Guided clients in integrating business objectives into architectural planning, ensuring alignment with long-term strategic goals"
       ]
     },
     {
@@ -102,7 +128,7 @@
       "name": "Semcon / DXC Technology",
       "position": "Product Owner",
       "startDate": "2020",
-      "endDate": "2022",
+      "endDate": "2022 November",
       "summary": "DXC Technology Automotive Line of Business provides software solutions for automotive OEMs and Tier 1 suppliers. Our team of 60-members, Service Layer, supplies the Android Automotive stack for in-vehicle-infotainment (IVI).",
       "highlights": [
         "Product Owner for Service Layer, Audio, Radio, Media, and voice control modules",
