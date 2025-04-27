@@ -20,19 +20,28 @@
         "url": "https://github.com/safa0",
         "username": "safa0",
         "network": "github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/sam-safaei/",
+        "username": "sam-safaei",
+        "network": "linkedin"
       }
     ]
   },
   "certificates": [
     {
-      "name": "Certified Product Owner",
-      "date": "2021-09-01",
-      "issuer": "DXC Technology"
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2024-12-01",
+      "issuer": "Amazon Web Services (AWS)"
     },
     {
       "name": "AI Product Management",
       "date": "2024-06-01",
       "issuer": "EPFL University, Switzerland"
+    },
+    {
+      "name": "Certified SAFe 5 Product Owner/Product Manager",
+      "date": "2021-07-01"
     }
   ],
   "education": [
@@ -46,19 +55,11 @@
   ],
   "_skills": [
     {
-      "keywords": [
-        "AUTOSAR",
-        "Android Automotive",
-        "Telecom 3GPP Standards"
-      ],
+      "keywords": ["AUTOSAR", "Android Automotive", "Telecom 3GPP Standards"],
       "name": "Domain Knowledge"
     },
     {
-      "keywords": [
-        "NLP",
-        "Speech recognition", 
-        "Ontology generation"
-      ],
+      "keywords": ["NLP", "Speech recognition", "Ontology generation"],
       "name": "AI & Machine Learning"
     }
   ],
@@ -76,19 +77,19 @@
       ],
       "name": "Project Management"
     },
-     {
-       "keywords": [
-         "Stakeholder Management",
-         "Client Relations",
-         "Cross-functional Leadership",
-         "Strategic Communication",
-         "Change Management",
-         "Problem Solving",
-         "Conflict Resolution",
-         "Mentoring"
-       ],
-       "name": "Leadership & Soft Skills"
-     },
+    {
+      "keywords": [
+        "Stakeholder Management",
+        "Client Relations",
+        "Cross-functional Leadership",
+        "Strategic Communication",
+        "Change Management",
+        "Problem Solving",
+        "Conflict Resolution",
+        "Mentoring"
+      ],
+      "name": "Leadership & Soft Skills"
+    },
     {
       "keywords": [
         "Docker",
@@ -104,7 +105,6 @@
         "Python",
         "Embedded Systems",
         "Design Patterns",
-        "microservices",
         "Domain Driven Design"
       ],
       "name": "Development & Tools"
@@ -114,14 +114,16 @@
     {
       "company": "Modular Management",
       "name": "Modular Management",
-      "position": "Senior Consultant / Software Architect",
+      "position": "Software Architecture Advisor",
       "startDate": "2022-10-01",
-      "summary": "Consulting firm focused on modular product architecture and platform strategy. We assist clients to align software requirements with scalable platform architectures, enabling reuse, reducing complexity, and moving from isolated product developments to modular scalable platform developemt enabling several product verticals.",
+      "summary": "Management Consulting firm focused on modular product architecture and platform strategy. We assist clients to align software requirements with scalable platform architectures, enabling reuse, reducing complexity, and moving from isolated product developments to modular scalable platform developemt enabling several product verticals.",
       "highlights": [
-        "Led cross-functional workshops utilizing Modular Function Deployment (MFD) to develop modular product architectures that balance customer needs, engineering requirements, and business strategies",
+        "Clients: BD Rowa, Electrolux Professional, Balluff, Sandvik, Metso Autotek, and more.",
+        "Led cross-functional workshops to design overal platform and solution architectures that balance customer needs, engineering requirements, and business strategies",
         "Collaborated with client leadership to align software, hardware, and mechanical design strategies, promoting cross-disciplinary integration and platform scalability",
         "Identified and addressed critical pain points in existing architectures, fostering cross-disciplinary alignment and driving strategic improvements",
-        "Guided clients in integrating business objectives into architectural planning, ensuring alignment with long-term strategic goals"
+        "Guided clients in integrating business objectives into architectural planning, ensuring alignment with long-term strategic goals",
+        "Review overall product and platform architecture, and provide recommendations for improvement"
       ]
     },
     {
@@ -132,7 +134,7 @@
       "endDate": "2022-10-01",
       "summary": "DXC Technology Automotive Line of Business provides software solutions for automotive OEMs and Tier 1 suppliers. Our team of 60-members, Service Layer, supplies the Android Automotive stack for in-vehicle-infotainment (IVI).",
       "highlights": [
-        "Product Owner for Service Layer, Audio, Radio, Media, and voice control modules",
+        "Product Owner for Android Automotive's Service Layer components: Audio, Radio, Media, and voice control",
         "Defined and refined requirements, managing product backlog and roadmap priorities",
         "Led and coordinated three development teams and third-party suppliers",
         "Drafted and negotiated contracts, outlining roles and responsibilities for stakeholders",
@@ -147,9 +149,10 @@
       "position": "Senior Software Engineer",
       "startDate": "2019-01-01",
       "endDate": "2020-08-01",
-      "summary": "YetiMove is a startup delivering autonomous technology and cloud-based fleet management, starting with self-driving snow ploughs for airports and expanding to heavy machinery solutions. We hold major global contracts, including autonomous snow removal for Swedavia airports.",
+      "summary": "YetiMove provides autonomous technology and cloud-based fleet management, starting with self-driving snow ploughs for airports and expanding to heavy machinery solutions. We hold major global contracts, including autonomous snow removal for Swedavia airports.",
       "highlights": [
-        "Designed, implemented, and maintained the equipment control components as component owner.",
+        "Clients: Swedavia, Husqvarna, Overassen, and more.",
+        "Designed, implemented, and maintained the equipment control components as component owner in C++.",
         "Facilitated communication between the server, PLC components, and autonomous decision-making systems.",
         "Translated business logic between cloud servers and PLCs, ensuring accurate updates from sensors.",
         "Refactored the component from the ground up, incorporating state machines, communication layers, and fail-safe mechanisms.",
@@ -163,12 +166,12 @@
       "position": "Senior Software Engineer",
       "startDate": "2018",
       "endDate": "2019",
-      "summary": "Software Developer - Multiclient (2019/2020) Developed an AI-driven virtual assistant for natural language information retrieval, similar to Google Home and Alexa.",
+      "summary": "Software Developer - Multiclient (2019/2020) Developed an AI-driven virtual assistant for natural language information retrieval, similar to Google Home.",
       "highlights": [
-        "Assisted Data scientist with data pipelines and AI systems, focusing on natural language understanding and speech recognition.",
+        "Assisted Data scientist with data pipelines and AI systems, focusing on natural language understanding(NLU).",
         "Built a microservice architecture with backend components and communication managed in Python.",
-        "Integration and customization of speech recognition system, Mozilla’s DeepSpeech and custom post-processing scripts.",
-        "Created ontology generation and retrieval processes using Stanford NLP and sequence-to-sequence and hourglass models."
+        "Integration and customization of speech recognition using Mozilla’s DeepSpeech and post-processing scripts.",
+        "Created ontology generation and retrieval processes using Stanford NLP and sequence-to-sequence models."
       ]
     },
     {
@@ -179,10 +182,9 @@
       "endDate": "2018",
       "summary": "Ericsson, Packet Core (EPC 4g/5g) provides internet backbone and core network functionality for mobile communications.",
       "highlights": [
-        "From 2012 to 2018, I held diverse roles at Ericsson, contributing to software development, team leadership, and tool implementation to optimize processes",
+        "Between 2012 and 2018, I held diverse roles, contributing to software development, team leadership, and tool implementation to optimize processes",
         "Enhanced mini-link product efficiency by introducing tools like profilers and IWYU (Include What You Use)",
-        "Migrated and refactored legacy Rhapsody code to C++",
-        "Managed the full software development lifecycle for the PDN Gateway node",
+        "Migrated and refactored legacy Rhapsody code to classic C++",
         "Worked directly with clients such as Verizon as part of professional services teams.",
         "Focus on functional testing, bug resolution, and proposed, implemented and deployed tools and solutions, as lead engineer and acting product owner, adopted by 300+ developers.",
         "Delivered agile coaching and software design training internationally for Session Getway (Mobile backbone of 4G/5G networks) in China."
@@ -196,8 +198,8 @@
       "endDate": "2012",
       "summary": "Volvo Trucks, Advanced Technology & Research",
       "highlights": [
-        "Developed a predictive model for assessing speedup gains when migrating software from single-core to multicore platforms, enhancing performance forecasting in automotive systems",
-        "Conducted empirical measurements of inter-core and intra-core communication times within AUTOSAR environments, identifying potential bottlenecks and informing optimization strategies"
+        "Developed predictive models for software migration from single to multicore platforms",
+        "Measured inter/intra-core communication times in AUTOSAR to identify bottlenecks"
       ]
     }
   ]
