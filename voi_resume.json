@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "theme": "professional"
+  },
+  "basics": {
+    "name": "Sam Safaei",
+    "phone": "tel:+46-72-529-8836",
+    "label": "Sr. Embedded Software Engineer",
+    "image": "1745316410292.jpeg",
+    "summary": "Senior Embedded Software Engineer with 15+ years of experience developing firmware and embedded systems for automotive, IoT, and telecommunications platforms. Proven expertise in C/C++ programming, Embedded Linux development, AUTOSAR, and real-time systems. Strong track record of driving embedded software architecture, implementing CI/CD processes, and delivering production-ready solutions for autonomous vehicles, fleet management systems, and mobile network infrastructure. Adept at hardware-software integration, low-level protocol implementation, and optimizing system performance for resource-constrained environments.",
+    "email": "sam.c.safaei@gmail.com",
+    "citizenship": "Sweden",
+    "location": {
+      "city": "Stockholm",
+      "countryCode": "SE"
+    },
+    "profiles": [
+      {
+        "url": "https://github.com/safa0",
+        "username": "safa0",
+        "network": "github"
+      }
+    ]
+  },
+  "certificates": [
+    {
+      "name": "Machine Learning Specialization",
+      "date": "2021-05-01",
+      "issuer": "DeepLearning.AI"
+    }
+  ],
+  "education": [
+    {
+      "endDate": "2012-06-12",
+      "startDate": "2010-09-01",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "institution": "Chalmers University of Technology"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "C/C++",
+        "Embedded Linux",
+        "AUTOSAR",
+        "Real-time Systems",
+        "Device Drivers",
+        "CMake",
+        "Python"
+      ],
+      "name": "Embedded Software & Programming"
+    },
+    {
+      "keywords": [
+        "Yocto Project",
+        "Linux Kernel",
+        "Device Trees",
+        "Bare Metal Programming",
+        "Multicore Systems",
+        "Hardware Abstraction"
+      ],
+      "name": "Embedded Linux & Systems"
+    },
+    {
+      "keywords": [
+        "CAN/CANOpen",
+        "TCP/IP",
+        "UDP",
+        "3GPP Standards",
+        "PLC Communication"
+      ],
+      "name": "Communication Protocols"
+    },
+    {
+      "keywords": [
+        "IoT Systems",
+        "Edge Computing",
+        "Fleet Management",
+        "Autonomous Vehicles",
+        "Telecom Infrastructure",
+        "Android Automotive"
+      ],
+      "name": "Domain Expertise"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "Git",
+        "Jenkins",
+        "CI/CD",
+        "Jira",
+        "Linux",
+        "Kubernetes"
+      ],
+      "name": "DevOps & Tools"
+    },
+    {
+      "keywords": [
+        "Design Patterns",
+        "Microservices",
+        "Domain Driven Design",
+        "State Machines",
+        "System Architecture"
+      ],
+      "name": "Software Architecture"
+    }
+  ],
+  "work": [
+    {
+      "company": "MM Consulting",
+      "name": "MM Consulting",
+      "position": "Senior Consultant / Embedded Software Architect",
+      "startDate": "2022",
+      "summary": "Independent consulting focused on embedded systems architecture for automotive and industrial clients.",
+      "highlights": [
+        "Advise clients on embedded software architecture strategies for platform reusability and scalability",
+        "Collaborate with hardware and software teams to align firmware, hardware interfaces, and system requirements",
+        "Guide teams in modern embedded development practices including modular design and hardware abstraction"
+      ]
+    },
+    {
+      "company": "Semcon / DXC Technology",
+      "name": "Semcon / DXC Technology",
+      "position": "Product Owner / Technical Lead",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "Android Automotive OS platform for in-vehicle infotainment (IVI) systems.",
+      "highlights": [
+        "Led Android Automotive embedded platform development, managing Service Layer, Audio, Radio, and Media modules",
+        "Coordinated embedded software development across three teams, aligning deliverables with OEM schedules",
+        "Defined technical requirements for embedded audio frameworks and hardware abstraction layers (HAL)",
+        "Managed third-party integration ensuring compatibility with vehicle hardware platforms"
+      ]
+    },
+    {
+      "company": "Semcon / Yeti Move",
+      "name": "Semcon / Yeti Move",
+      "position": "Senior Embedded Software Engineer / Component Owner",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Autonomous technology and cloud-based fleet management for heavy machinery.",
+      "highlights": [
+        "Designed embedded control systems for autonomous vehicles as component owner for PLC communication and sensors",
+        "Developed software for real-time communication between cloud servers, embedded Linux, and industrial PLCs",
+        "Implemented control logic with fail-safe mechanisms for critical vehicle operations",
+        "Built communication layers for sensor telemetry, GPS positioning, and equipment status over cellular networks",
+        "Refactored legacy codebase introducing modular architecture with hardware abstraction layers",
+        "Led field commissioning and troubleshooting of hardware-software integration across deployment sites"
+      ]
+    },
+    {
+      "company": "Semcon",
+      "name": "Semcon",
+      "position": "Software Engineer - AI & Embedded Systems",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "AI-driven virtual assistant development with embedded deployment focus.",
+      "highlights": [
+        "Developed data pipelines and infrastructure for AI systems on edge devices",
+        "Integrated and optimized Mozilla DeepSpeech for resource-constrained embedded platforms",
+        "Built microservice architecture for distributed AI inference across cloud and edge nodes"
+      ]
+    },
+    {
+      "company": "Ericsson",
+      "name": "Ericsson",
+      "position": "Senior Software Engineer (L6) / Technical Lead",
+      "startDate": "2012",
+      "endDate": "2018",
+      "summary": "Packet Core (EPC 4G/5G) - Mobile network infrastructure and core network functionality.",
+      "highlights": [
+        "Developed high-performance C++ software for telecom infrastructure on embedded Linux platforms",
+        "Implemented low-latency data plane components for PDN Gateway, optimizing packet processing (UDP, TCP/IP, GTP)",
+        "Enhanced performance through profiling, memory optimization, and efficient hardware resource utilization",
+        "Migrated legacy Rhapsody/UML code to modern C++ improving maintainability and performance",
+        "Established CI/CD pipelines and testing frameworks adopted by 300+ developers",
+        "Provided on-site support to major operators (Verizon) for system integration and performance issues"
+      ]
+    },
+    {
+      "company": "Volvo Trucks",
+      "name": "Volvo Trucks",
+      "position": "Embedded Systems Research Engineer",
+      "startDate": "2011",
+      "endDate": "2012",
+      "summary": "Advanced Technology & Research - Multicore Embedded Systems",
+      "highlights": [
+        "Researched multicore embedded system performance for AUTOSAR-compliant automotive platforms",
+        "Developed predictive models and profiling tools for single-core to multicore migration analysis",
+        "Measured inter-core and intra-core communication latencies, identifying hardware-software bottlenecks",
+        "Evaluated cross-core communication overhead providing optimization recommendations for embedded software"
+      ]
+    }
+  ]
+}

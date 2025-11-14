@@ -50,7 +50,10 @@
     "test": "FORCE_COLOR=0 vitest"
   },
   "dependencies": {
+    "@jsonresume/jsonresume-theme-professional": "^1.0.18",
     "@jsonresume/schema": "^1.0.0",
+    "jsonresume-theme-professional": "^1.1.0",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
     "sade": "^1.7.0",
     "strip-json-comments": "^5.0.0",
     "yoctocolors": "^2.0.0"
