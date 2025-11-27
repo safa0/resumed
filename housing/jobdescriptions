@@ -1,0 +1,244 @@
+Job Description
+
+Introduction:
+Objective : to revolutionize the rental property market by integrating cryptocurrency payments into a secure, scalable platform that simplifies transactions for property owners and tenants. 
+This platform will include a dedicated admin dashboard, dark and light mode interfaces, and be fully responsive across devices.
+
+Target Technologies : 
+React/Next, three.js, Node.js, Python, Go, JavaScript/TypeScript, Web3.js, Solidity, Rust, Hardhat, Ethereum/Polygon, Chainlink
+Timeline : 
+8~12 months
+Total Budget : 
+$0.8M~$1M
+Supported Blockchains : 
+Ethereum, Polygon, Binance Smart Chain (BSC).
+
+
+
+
+
+
+Backend Developer Position
+
+
+※ You can find another role description in the left tab of this document
+
+Position:  Remote
+Job Type: 
+Full time (30 - 40 hrs / w)
+Part time (10 - 20 hrs / w)
+Hourly Rate: $80 - $140 / hr
+
+
+About the Role:
+We are looking for a Backend Developer to join our remote team. As a key member of the development team, you will be responsible for building and maintaining APIs, handling data management, and integrating with the blockchain and other systems. You’ll work closely with the frontend developers to ensure seamless integration between the backend and the user-facing parts of the platform.
+
+
+Key Responsibilities:
+API Development: Design, implement, and maintain RESTful APIs to interact with the front-end and blockchain components of the platform.
+Database Management: Work with relational databases (e.g., PostgreSQL) and NoSQL databases (e.g., MongoDB) to store and manage user data, property metadata, transactions, and more.
+Blockchain Integration: Collaborate with the Smart Contract team to integrate the backend with blockchain technologies like Ethereum and Polygon (Web3 interactions).
+Security & Performance: Implement security protocols to ensure platform safety and high performance, including handling user authentication, payment systems, and personal data management.
+Collaboration with Frontend: While your focus is backend, a basic understanding of React and frontend development will help you collaborate effectively with the frontend team for API consumption and integration.
+Troubleshooting & Debugging: Identify and resolve performance bottlenecks and bugs, improving both the backend and the overall user experience.
+Documentation: Write clear and concise documentation for APIs, database structures, and integration processes to ensure smooth team collaboration and future scalability.
+
+
+Requirements:
+5+ years of backend development experience.
+Strong knowledge of Node.js and Express.js.
+Experience working with PostgreSQL, MongoDB, or other databases.
+Familiarity with IPFS or cloud storage solutions is a plus.
+Basic knowledge of React.js and frontend development (enough to collaborate effectively with frontend team).
+Experience working with Web3 technologies (Ethereum, Polygon, Web3.js, Ethers.js) is preferred but not required.
+Understanding of smart contracts and decentralized applications is a plus.
+Security: Strong understanding of security best practices, especially in regard to blockchain interactions and user data.
+Problem-Solving: Ability to debug, optimize, and troubleshoot complex systems.
+Communication: Strong written and verbal communication skills, with the ability to document processes clearly and work in a remote team environment.
+Collaboration: Comfortable working in an agile, collaborative team setup.
+
+
+Full Stack Developer Position (Team Lead)
+
+
+※ You can find another role description in the left tab of this document
+
+Position:  Remote
+Job Type: 
+Full time (30 - 40 hrs / w)
+Part time (10 - 20 hrs / w)
+Hourly Rate: $100- $160 / hr
+
+
+About the Role:
+We are looking for an experienced Full Stack Developer (Team Lead) to join our team. As the Team Lead, you will play a key role in building the core components of the platform, while also leading and mentoring a team of developers. This role is ideal for someone with a strong technical background and leadership skills, who is excited about working on a cutting-edge project in real estate tech, blockchain, and AI.
+
+
+Key Responsibilities:
+Technical Leadership: Guide and mentor the development team, ensuring high code quality, scalability, and timely delivery of features.
+Architecture & Design: Lead the design and development of the platform, including the integration of frontend, backend, Web3, and blockchain technologies.
+End-to-End Development: Take ownership of both frontend and backend codebases, ensuring a seamless user experience.
+Collaboration: Work closely with product managers, designers, and AI/ML engineers to ensure alignment of business goals and technical execution.
+Code Review & Best Practices: Enforce best practices for code quality, testing, and deployment across the team.
+Platform Scaling: Help plan and implement scalable solutions as the platform grows, with an emphasis on decentralization and security.
+Continuous Learning: Stay updated with the latest trends in web development, blockchain, and AI technologies and bring fresh ideas to the table.
+
+
+Requirements:
+5+ years of development experience, with at least 1-2 years in a leadership or team lead role.
+Proficiency in Full Stack Development, with a strong understanding of:
+- Frontend: React, TypeScript, HTML, CSS.
+- Backend: Node.js, Express, API development.
+- Web3: Experience with Ethereum, Solidity, and blockchain concepts.
+- Database: Familiarity with PostgreSQL or MongoDB, and decentralized storage (IPFS).
+Basic Understanding of 3D Visualization: Comfortable working with Three.js or similar.
+Strong Problem-Solving Skills: Ability to design scalable, efficient systems.
+Collaboration & Communication: Able to explain technical concepts to non-technical stakeholders.
+Experience with Agile Development: Familiar with Jira, Trello, or similar tools.
+
+Blockchain Developer Position
+
+※ You can find another role description in the left tab of this document
+
+Position:  Remote
+Job Type: 
+Full time (30 - 40 hrs / w)
+Part time (10 - 20 hrs / w)
+Hourly Rate: $100 - $160 / hr
+
+
+About the Role:
+We are looking for a Smart Contract & Web3 Developer to join our team. This role is central to the design, development, and deployment of secure and scalable blockchain-based solutions. You will work closely with frontend and backend developers, designers, and product managers to integrate smart contracts into a seamless and immersive user experience for real estate investment and trading.
+
+
+Key Responsibilities:
+Design, develop, and deploy secure smart contracts on Ethereum or compatible EVM chains (e.g., Polygon).
+Build and test tokenization logic for real estate assets using NFTs and ERC standards (e.g., ERC-721, ERC-1155).
+Integrate Web3.js/Ethers.js with the frontend (React) and backend services.
+Collaborate with designers and frontend developers to enable blockchain-powered UX flows (e.g., wallet login, transactions).
+Implement features such as fractional ownership, DAO voting, and rental agreements.
+Write unit tests and perform contract audits to ensure security and efficiency.
+Manage smart contract deployments and monitor their on-chain performance.
+Stay updated on Web3 trends, L2 solutions, and relevant protocols that can enhance the platform.
+
+
+Requirements:
+3-5 years of experience in smart contract development and blockchain technology.
+Strong knowledge of Solidity and smart contract best practices.
+Familiarity with Ethereum, Polygon, or other EVM-compatible chains.
+Experience with Web3 libraries (Web3.js, Ethers.js) and frontend integration.
+Basic understanding of frontend development using React and TypeScript.
+Experience deploying contracts using tools like Hardhat or Foundry.
+Understanding of decentralized storage solutions like IPFS.
+Comfort with using blockchain APIs (Alchemy, Infura) and node management.
+Good communication skills and ability to collaborate in a cross-functional team.
+
+DevOps / Cloud Engineer Position
+
+
+※ You can find another role description in the left tab of this document
+
+Position:  Remote
+Job Type: 
+Full time (30 - 40 hrs / w)
+Part time (10 - 20 hrs / w)
+Hourly Rate: $90 - $150 / hr
+
+
+About the Role:
+We are looking for a DevOps / Cloud Engineer to take ownership of the infrastructure and deployment pipelines that power our platform. You will be responsible for designing and maintaining scalable cloud environments, ensuring CI/CD automation, infrastructure-as-code, monitoring, and security best practices.
+
+
+Key Responsibilities:
+Design and manage scalable, secure cloud architecture (preferably AWS).
+Implement CI/CD pipelines for backend, frontend, and smart contract deployments.
+Automate infrastructure using tools like Terraform, CloudFormation, or Pulumi.
+Manage containerization and orchestration (Docker, Kubernetes, or ECS).
+Ensure monitoring, logging, and alerting using tools such as CloudWatch, Prometheus, or ELK Stack.
+Work with developers to optimize build, test, and deployment workflows.
+Implement security best practices, data backups, and disaster recovery strategies.
+Collaborate with ML engineers on deploying AI/ML models via SageMaker or similar services.
+
+
+Requirements:
+5+ years of experience in DevOps, cloud engineering, or site reliability.
+Strong experience with AWS (EC2, S3, Lambda, RDS, SageMaker, etc.).
+Proficiency in Docker, Kubernetes, and CI/CD tooling (e.g., GitHub Actions, Jenkins).
+Infrastructure-as-code using Terraform, CloudFormation, or equivalent.
+Familiarity with Linux, networking, DNS, and security principles.
+Working knowledge of version control (Git) and scripting languages (Bash, Python).
+Basic understanding of frontend and React-based deployments is a plus.
+
+QA Engineer Position
+
+
+※ You can find another role description in the left tab of this document
+
+Position:  Remote
+Job Type: 
+Full time (30 - 40 hrs / w)
+Part time (10 - 20 hrs / w)
+Hourly Rate: $60 - $110 / hr
+
+
+About the Role:
+We are looking for a meticulous and proactive QA Engineer to join our remote development team. You will be responsible for ensuring the quality and reliability of our web, mobile, and blockchain-integrated platform. You will work closely with developers, designers, and product managers to identify bugs early, automate testing processes, and contribute to a stable and secure release cycle.
+
+
+Key Responsibilities:
+Create detailed, comprehensive, and well-structured test plans and test cases
+Conduct manual and automated testing for web and mobile apps
+Perform API testing, functional testing, regression testing, and performance testing
+Test Web3 flows (wallet connection, crypto payments, NFT transfers)
+Validate AI/ML output correctness (recommendation engine, smart search)
+Document, report, and track bugs using project management tools (e.g., Jira, Trello)
+Collaborate in Agile sprints, participate in standups, and contribute to planning sessions
+Review and improve QA processes continuously
+
+
+Requirements:
+5+ years of experience as a QA Engineer or Software Tester
+Hands-on experience with manual and automated testing tools
+Proficiency in writing test scripts using tools like Selenium, Cypress, Playwright
+Experience testing React.js apps, REST APIs, and mobile applications
+Basic understanding of Web3 technologies (MetaMask, smart contracts, wallet connections)
+Familiarity with CI/CD pipelines and tools like GitHub Actions, Jenkins, or CircleCI
+Basic knowledge of front-end development (React/JS) is required
+Strong attention to detail, excellent communication, and documentation skills
+
+Project Manager Position
+
+
+※ You can find another role description in the left tab of this document
+
+Position:  Remote
+Job Type: 
+Full time (30 - 40 hrs / w)
+Part time (10 - 20 hrs / w)
+Hourly Rate: $100 - $170 / hr
+
+
+About the Role:
+We’re building a Real Estate Platform and are looking for an organized, proactive Project Manager to keep our team aligned and our milestones on track. You’ll work closely with developers, designers, and stakeholders to ensure smooth planning, clear communication, and timely delivery across all parts of the project.
+
+
+Key Responsibilities:
+Manage the full project lifecycle from planning to launch
+Create timelines, define milestones, and monitor progress against goals
+Facilitate daily stand-ups, sprint planning, and retrospectives
+Coordinate across frontend, backend, blockchain, and design teams
+Translate business goals into actionable development tasks
+Track deliverables, manage dependencies, and resolve blockers
+Maintain clear documentation and task boards (Jira, Notion, or similar)
+Provide regular updates to stakeholders on progress, risks, and changes
+
+
+Requirements:
+Proven experience managing software or blockchain/web3 projects
+Strong understanding of agile methodologies (Scrum, Kanban, etc.)
+Excellent organizational and time management skills
+Comfortable working with technical teams and understanding dev workflows
+Experience with project management tools (e.g., Jira, Trello, Notion)
+Clear communication skills, both written and verbal
+Basic understanding of blockchain concepts, NFTs, and crypto wallets
+

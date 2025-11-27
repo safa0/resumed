@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "theme": "stackoverflow"
+  },
+  "basics": {
+    "name": "Sam Safaei",
+    "phone": "tel:+1-647-562-4007",
+    "label": "Senior Backend Engineer / Technical Lead",
+    "image": "1745316410292.jpeg",
+    "summary": "Senior Software Engineer with 15+ years of experience in backend development, system architecture, and technical leadership. Proven track record delivering production systems for telecom infrastructure, autonomous vehicles, and fleet management platforms. Strong expertise in Python, TypeScript/Node.js, API development, and database design (PostgreSQL). Experience with AI/ML systems including NLP, speech recognition, and data pipelines. Led development teams as Product Owner and Technical Lead, coordinating cross-functional delivery for OEM clients. Recent project work includes DeFi/Web3 backend integration.",
+    "email": "sam.c.safaei@gmail.com",
+    "citizenship": "Sweden",
+    "location": {
+      "city": "Toronto",
+      "countryCode": "CA"
+    },
+    "profiles": [
+      {
+        "url": "https://github.com/safa0",
+        "username": "safa0",
+        "network": "github"
+      }
+    ]
+  },
+  "certificates": [
+    {
+      "name": "Machine Learning Specialization",
+      "date": "2021-05-01",
+      "issuer": "DeepLearning.AI"
+    }
+  ],
+  "education": [
+    {
+      "endDate": "2012-06-12",
+      "startDate": "2010-09-01",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "institution": "Chalmers University of Technology"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Node.js",
+        "Next.js",
+        "REST APIs"
+      ],
+      "name": "Backend Development"
+    },
+    {
+      "keywords": [
+        "ethers.js",
+        "Wagmi",
+        "Thirdweb SDK",
+        "Ethereum",
+        "Base",
+        "Polygon"
+      ],
+      "name": "Web3 & Blockchain"
+    },
+    {
+      "keywords": ["PostgreSQL", "Prisma ORM", "MongoDB", "Database Design"],
+      "name": "Databases"
+    },
+    {
+      "keywords": ["React", "TypeScript", "TanStack Query", "Tailwind CSS"],
+      "name": "Frontend (Working Knowledge)"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitHub Actions",
+        "CI/CD",
+        "Linux"
+      ],
+      "name": "DevOps & Infrastructure"
+    },
+    {
+      "keywords": [
+        "Team Leadership",
+        "Agile/Scrum",
+        "Product Ownership",
+        "Roadmap Planning",
+        "Jira"
+      ],
+      "name": "Leadership & Project Management"
+    },
+    {
+      "keywords": [
+        "Jest",
+        "pytest",
+        "Vitest",
+        "API Testing",
+        "Integration Testing"
+      ],
+      "name": "Testing & QA"
+    },
+    {
+      "keywords": ["NLP", "Data Pipelines", "Machine Learning"],
+      "name": "AI & Machine Learning"
+    }
+  ],
+  "projects": [
+    {
+      "name": "DeFi Analytics & Forecasting Platform",
+      "description": "Backend systems for blockchain data analysis, ML-based forecasting, and DeFi operations",
+      "highlights": [
+        "Built ML forecasting models for liquidity position rebalancing recommendations",
+        "Developed Python/FastAPI backend integrating real-time blockchain data from multiple networks",
+        "Implemented mathematical models for Uniswap V3 position analysis and optimization strategies",
+        "Created Next.js/TypeScript API layer with PostgreSQL/Prisma for DeFi platform operations",
+        "Data pipeline development for time-series analysis and predictive modeling",
+        "Streamlit dashboard for visualization and strategy backtesting"
+      ],
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Machine Learning",
+        "Forecasting",
+        "PostgreSQL",
+        "TypeScript",
+        "Data Pipelines"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "MM Consulting",
+      "name": "MM Consulting",
+      "position": "Senior Consultant / Software Architect",
+      "startDate": "2022",
+      "summary": "Independent consulting for software architecture and technical strategy.",
+      "highlights": [
+        "Advise clients on software architecture strategies for scalability and maintainability",
+        "Collaborate with C-level leadership to align technical and business strategies",
+        "Guide teams in modern development practices including microservices and Web3 integration"
+      ]
+    },
+    {
+      "company": "Semcon / DXC Technology",
+      "name": "Semcon / DXC Technology",
+      "position": "Product Owner / Technical Lead",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "Product Owner for 60-member Android Automotive organization delivering IVI solutions.",
+      "highlights": [
+        "Product Owner for Service Layer, Audio, Radio, Media, and voice control modules",
+        "Led and coordinated three development teams and third-party suppliers",
+        "Defined technical requirements, managed backlog and roadmap priorities",
+        "Drafted and negotiated contracts with stakeholders and OEM clients",
+        "Established quality standards and testing practices across teams"
+      ]
+    },
+    {
+      "company": "Semcon / Yeti Move",
+      "name": "Semcon / Yeti Move",
+      "position": "Senior Software Engineer / Component Owner",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Autonomous technology and cloud-based fleet management for heavy machinery.",
+      "highlights": [
+        "Owned equipment control component: server, PLC, and autonomous system communication",
+        "Developed backend systems for real-time cloud-to-device communication",
+        "Built API layers for sensor telemetry, GPS positioning, and equipment status",
+        "Refactored legacy codebase introducing modular architecture with state machines",
+        "Led field commissioning across deployment sites"
+      ]
+    },
+    {
+      "company": "Semcon",
+      "name": "Semcon",
+      "position": "Software Engineer - AI & Backend Systems",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "AI-driven virtual assistant development with microservice architecture.",
+      "highlights": [
+        "Built microservice architecture with Python backend components",
+        "Developed data pipelines for NLP and speech recognition systems",
+        "Integrated Mozilla DeepSpeech with custom post-processing"
+      ]
+    },
+    {
+      "company": "Ericsson",
+      "name": "Ericsson",
+      "position": "Senior Software Engineer (L6) / Technical Lead",
+      "startDate": "2012",
+      "endDate": "2018",
+      "summary": "Packet Core (EPC 4G/5G) - Mobile network infrastructure.",
+      "highlights": [
+        "Developed high-performance C++ backend for telecom infrastructure",
+        "Implemented low-latency data plane components (UDP, TCP/IP, GTP protocols)",
+        "Established CI/CD pipelines and testing frameworks adopted by 300+ developers",
+        "Worked directly with major operators (Verizon) on system integration",
+        "Delivered agile coaching and technical training internationally"
+      ]
+    },
+    {
+      "company": "Volvo Trucks",
+      "name": "Volvo Trucks",
+      "position": "Research Engineer",
+      "startDate": "2011",
+      "endDate": "2012",
+      "summary": "Advanced Technology & Research - Performance analysis.",
+      "highlights": [
+        "Developed predictive models for software performance optimization",
+        "Conducted empirical measurements and profiling for multicore systems"
+      ]
+    }
+  ]
+}
