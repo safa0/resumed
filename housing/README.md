@@ -4,14 +4,14 @@ CV tailored for the real estate blockchain platform role.
 
 ## Theme
 
-**Use:** `jsonresume-theme-stackoverflow`
+**Use:** `jsonresume-theme-stackoverflow` (set in JSON meta.theme)
 
 This theme displays skills at the top (after header), which matches the preferred CV format.
 
 ## Render Command
 
 ```bash
-node bin/resumed.js render housing/housing_combined_resume.json --theme jsonresume-theme-stackoverflow -o housing/housing_combined_resume.html
+node bin/resumed.js render housing/housing_combined_resume.json -o housing/housing_combined_resume.html
 ```
 
 ## Files
