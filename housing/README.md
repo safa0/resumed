@@ -17,7 +17,7 @@ node bin/resumed.js render housing/housing_combined_resume.json --theme jsonresu
 ## Files
 
 - `housing_combined_resume.json` - CV source (JSON Resume format)
-- `housing_combined_resume.html` - Rendered CV
+- `housing_combined_resume.html` - Rendered CV (generated, run render command)
 - `1745316410292.jpeg` - Profile photo
 - `jobdescriptions` - Original job posting
 
