@@ -19,9 +19,12 @@ npm run start       # Watch mode for development
 ### Testing & Quality
 
 ```bash
-npm test            # Run tests with Vitest
-npm run lint        # Run publint to check package quality
-npm run format      # Format code with Prettier
+npm test                           # Run tests with Vitest (watch mode)
+npm test -- --run                  # Run tests once without watch
+npm test -- --run src/render.ts    # Run a single test file
+npm test -- --coverage             # Run tests with coverage report
+npm run lint                       # Run publint to check package quality
+npm run format                     # Format code with Prettier
 ```
 
 ### CLI Usage (after building)
@@ -104,11 +107,12 @@ Resume files support JSON with comments using `strip-json-comments` package. Com
 
 ## Testing Strategy
 
-- **Framework**: Vitest
+- **Framework**: Vitest (configured in `vite.config.js`, not a separate config file)
 - **Coverage**: 100% code coverage requirement
 - **Test files**: Located in `test/` directory, mirroring `src/` structure
 - **Mocking**: File system operations and Puppeteer are mocked in tests
 - **Pattern**: Integration tests for CLI commands + unit tests for core functions
+- **CLI tests**: Use `cli.parse(['', '', 'command', ...args])` to simulate CLI invocations
 
 ## Important Conventions
 
@@ -130,6 +134,8 @@ Resume files support JSON with comments using `strip-json-comments` package. Com
 **Peer (Optional):**
 
 - `puppeteer`: Only needed for PDF export command
+
+Note: Theme packages in package.json (e.g., `jsonresume-theme-*`) are user additions for local resume projects, not part of the library's core dependencies.
 
 ## Common Patterns
 
@@ -158,3 +164,93 @@ const pdfOptions = {
 ## Node.js Version
 
 Requires Node.js 20+ (specified in package.json engines field)
+
+## Resume Files in This Repo
+
+This repo contains personal resume JSON files:
+
+- `PO_resume.json` - Product Owner / Software Architect resume
+- `voi_resume.json` - Alternative version
+- `housing/housing_combined_resume.json` - Housing/blockchain project CV
+
+## Rendering Resumes
+
+### Quick Render
+
+```bash
+npm run build  # Required first time or after code changes
+node bin/resumed.js render PO_resume.json --theme jsonresume-theme-stackoverflow
+```
+
+### Installed Themes
+
+- `jsonresume-theme-stackoverflow` - Professional StackOverflow style (recommended)
+- `jsonresume-theme-even` - Clean minimal design
+- `jsonresume-theme-elegant` - Elegant with sidebar
+- `jsonresume-theme-kendall` - Modern layout
+- `jsonresume-theme-flat` - Flat design, smallest output
+
+**Theme names must use full package name** (e.g., `jsonresume-theme-stackoverflow`, not just `stackoverflow`).
+
+### Image Handling
+
+**Use local relative paths for images, NOT Gravatar URLs.**
+
+```json
+{
+  "basics": {
+    "image": "profile.jpeg"
+  }
+}
+```
+
+- Place image file in same directory as resume JSON
+- HTML output will reference the image relatively
+- Gravatar requires account setup and correct MD5 hash of email
+
+### Location Field
+
+Some themes require `location` (not `locationTemp`):
+
+```json
+{
+  "basics": {
+    "location": {
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
+    }
+  }
+}
+```
+
+## ATS Optimization
+
+A custom ATS scoring skill is available at `~/.claude/skills/resume-ats/SKILL.md`.
+
+### ATS Workflow
+
+1. **Analyze job description** - Extract required skills, keywords, qualifications
+2. **Score resume match** - Calculate match percentage across categories
+3. **Identify gaps** - Missing keywords, skills, action verbs
+4. **Optimize JSON Resume** - Add missing keywords where truthful, reorder skills
+5. **Re-render** - Generate optimized HTML/PDF
+
+### Key ATS Optimizations
+
+- Add explicit keywords: CI/CD, Scrum, DevOps (not just the tools)
+- Use exact phrases from job description
+- Include both acronyms and full terms
+- Place keywords in summary, skills, AND work highlights
+- Fix typos (e.g., "Atlasian" → "Atlassian")
+
+### ATS Score Categories
+
+| Category        | Weight | What to Check                         |
+| --------------- | ------ | ------------------------------------- |
+| Required Skills | 30%    | Match JD required skills              |
+| Keywords        | 25%    | Technical terms, tools, methodologies |
+| Experience      | 15%    | Years and relevance                   |
+| Education       | 10%    | Degree match                          |
+| Action Verbs    | 10%    | Led, designed, implemented, etc.      |
+| Format          | 10%    | ATS-friendly structure                |

@@ -5,14 +5,15 @@
   "basics": {
     "name": "Sam Safaei",
     "phone": "tel:+1-647-562-4007",
-    "label": "Product Management / Software Architect",
-    "image": "https://www.gravatar.com/avatar/e99b5b7b9bb087ee76a6c9f1c6c47290?s=500",
-    "summary": "With over 15 years of experience, I have excelled in product and software project management, engineering, test and leadership across various stages of the software lifecycle. As a Product Owner, Project Manager, and Senior Consultant, I have driven requirement gathering, roadmap prioritization, and strategic cross-functional collaboration to deliver complex software solutions and guide organizations in achieving modular, scalable architectures. My expertise includes client interaction, agile leadership, and backlog management, underpinned by a strong foundation in software development using C++, Python, and DevOps practices. I bring a proven ability to align technical execution with business goals, optimize processes, and deliver impactful, high-quality solutions in dynamic environments while advising clients on strategic software transformations.",
+    "label": "Senior Product Manager / Software Architect",
+    "image": "1745316410292.jpeg",
+    "summary": "Senior Product Manager and Software Architect with 15+ years driving product strategy, roadmap prioritization, and cross-functional collaboration in automotive and telecom software. As Product Owner in Agile/Scrum teams, I have led requirement gathering, backlog management, and stakeholder alignment for complex embedded systems and Android Automotive platforms. Strong technical foundation in C++, Python, microservices architecture, and DevOps (CI/CD, Docker, Kubernetes). Proven ability to work with OEMs, Tier 1 suppliers, and C-level executives to deliver scalable, high-quality solutions.",
     "email": "sam.c.safaei@gmail.com",
     "citizenship": "Sweden",
-    "locationTemp": {
+    "location": {
       "city": "Toronto",
-      "countryCode": "CA"
+      "countryCode": "CA",
+      "region": "Ontario"
     },
     "profiles": [
       {
@@ -46,16 +47,17 @@
     {
       "keywords": [
         "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "CI/CD",
         "Git",
         "Linux",
         "Jira",
         "Confluence",
-        "Kubernetes",
-        "Jenkins",
         "Microsoft Project",
-        "Atlasian"
+        "Atlassian"
       ],
-      "name": "Tools"
+      "name": "DevOps & Tools"
     },
     {
       "keywords": [
@@ -97,7 +99,7 @@
       "summary": "DXC Technology Automotive Line of Business provides software solutions for automotive OEMs and Tier 1 suppliers. Our team of 60-members, Service Layer, supplies the Android Automotive stack for in-vehicle-infotainment (IVI).",
       "highlights": [
         "Product Owner for Service Layer, Audio, Radio, Media, and voice control modules",
-        "Defined and refined requirements, managing product backlog and roadmap priorities",
+        "Defined and refined requirements using Agile/Scrum methodology, managing product backlog and roadmap priorities",
         "Led and coordinated three development teams and third-party suppliers",
         "Drafted and negotiated contracts, outlining roles and responsibilities for stakeholders",
         "Aligned development roadmaps with both internal and external suppliers and clients, responsible for timely delivery",
@@ -148,8 +150,8 @@
         "Migrated and refactored legacy Rhapsody code to C++",
         "Managed the full software development lifecycle for the PDN Gateway node",
         "Worked directly with clients such as Verizon as part of professional services teams.",
-        "Focus on functional testing, bug resolution, and proposed, implemented and deployed tools and solutions, as lead engineer and acting product owner, adopted by 300+ developers.",
-        "Delivered agile coaching and software design training internationally for Session Getway (Mobile backbone of 4G/5G networks) in China."
+        "Led functional testing, QA coordination, and CI/CD tooling improvements as lead engineer and acting product owner, with solutions adopted by 300+ developers.",
+        "Delivered Agile/Scrum coaching and software design training internationally for Session Gateway (Mobile backbone of 4G/5G networks) in China."
       ]
     },
     {
