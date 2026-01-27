@@ -1,0 +1,33 @@
+{
+  "id": "2026-01-27-insight-global-product-owner-lead-ba",
+  "company": "Insight Global",
+  "role": "Product Owner/Lead BA",
+  "url": "https://www.linkedin.com/jobs/view/4361979734/",
+  "location": "Toronto, ON (Hybrid)",
+  "remote": false,
+  "source": "linkedin",
+  "status": "applied",
+  "timeline": {
+    "found": "2026-01-27",
+    "applied": "2026-01-27",
+    "response": null,
+    "interview": null,
+    "offer": null,
+    "closed": null
+  },
+  "salary": {
+    "posted": "$60-75/hr",
+    "asked": null,
+    "offered": null
+  },
+  "contacts": [
+    {
+      "name": "Jacqueline Kahnert",
+      "role": "Recruiting and Sales at Insight Global",
+      "linkedin": "https://www.linkedin.com/in/jacqueline-kahnert"
+    }
+  ],
+  "notes": "Big 5 Bank legacy transactions system modernization - debit/credit/GL system",
+  "rating": null,
+  "tags": ["contract", "banking", "legacy-modernization", "transactions"]
+}

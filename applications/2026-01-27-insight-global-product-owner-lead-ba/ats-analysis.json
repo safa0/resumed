@@ -1,0 +1,54 @@
+{
+  "score": 78,
+  "date": "2026-01-27",
+  "breakdown": {
+    "required_skills": 22,
+    "keywords": 18,
+    "experience": 15,
+    "education": 10,
+    "action_verbs": 7,
+    "format": 6
+  },
+  "gaps": [
+    "Accounting/financial concepts - need to emphasize transactional systems work",
+    "GL/ledger structures not explicitly mentioned",
+    "Banking industry specific experience"
+  ],
+  "matches": [
+    "8+ years PO/BA experience (exceeds - 15+ years)",
+    "Agile/Scrum methodology - explicit match",
+    "User stories and requirements documentation",
+    "Backlog prioritization and sprint planning",
+    "Legacy system modernization (Ericsson, telecom)",
+    "Cross-functional stakeholder management",
+    "Large enterprise/regulated industries (telecom, automotive)",
+    "Technical + business acumen (Software Architect background)",
+    "UAT and QA coordination experience"
+  ],
+  "keywords_found": [
+    "Product Owner",
+    "Business Analyst",
+    "Agile",
+    "Scrum",
+    "requirements",
+    "user stories",
+    "backlog",
+    "prioritization",
+    "stakeholders",
+    "sprint planning",
+    "legacy systems",
+    "enterprise",
+    "regulated industries",
+    "UAT"
+  ],
+  "keywords_missing": [
+    "accounting",
+    "debits/credits",
+    "general ledger",
+    "GL",
+    "financial controls",
+    "Fiserv",
+    "banking"
+  ],
+  "recommendation": "Strong Match - Tailor resume to emphasize transactional systems, data flow management, and regulated industry experience. Add financial/transactional terminology where truthful."
+}

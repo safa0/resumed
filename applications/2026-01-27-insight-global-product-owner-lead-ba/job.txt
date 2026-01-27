@@ -1,0 +1,34 @@
+# Product Owner/Lead BA
+## Insight Global
+## Toronto, ON (Hybrid) | $60-75/hr | Contract
+
+JOB DESCRIPTION
+
+Insight Global is hiring for a leading Big 5 Virtual financial institution in downtown Toronto, is delivering a large-scale transformational portfolio and is seeking a senior Product Owner/Lead BA hybrid. You will support a project focused on a legacy internal transactions system. This system manages debit/credit postings to accounts and general ledgers. The successful candidate will play a critical role in defining requirements, shaping product direction, and partnering closely with both technical and business stakeholders. This role requires deep knowledge of accounting and financial concepts, as well as strong experience working with transaction-based or GL-integrated systems.
+
+Key Responsibilities:
+- Act as the Product Owner for the legacy transactions system modernization project.
+- Serve as the Lead Business Analyst, responsible for eliciting, documenting, and prioritizing business and functional requirements.
+- Partner closely with stakeholders across Accounting, Finance, and Technology to understand needs and translate them into clear deliverables.
+- Create detailed user stories, acceptance criteria, process flows, and supporting documentation.
+- Collaborate and align with related project teams, especially those supporting parallel accounting or finance transformation work.
+- Facilitate backlog prioritization, grooming sessions, and sprint planning.
+- Analyze current-state processes involving internal transactions, debits/credits, and GL impacts; recommend enhancements.
+- Support UAT planning and execution to ensure solutions meet business expectations.
+- Ensure all requirements adhere to accounting and financial reporting principles.
+
+REQUIRED SKILLS AND EXPERIENCE
+- 8+ years as a Business Analyst, Product Owner, or hybrid BA/PO role.
+- Strong understanding of accounting principles, debits/credits, general ledger structures, and financial controls.
+- Experience working with legacy systems that support financial or transaction-processing functions.
+- Demonstrated ability to build clear, concise requirements and user stories.
+- Experience working within Agile/Scrum delivery frameworks.
+
+NICE TO HAVE SKILLS AND EXPERIENCE
+- Experience with Fiserv or similar financial applications.
+- Prior involvement in banking system migrations or "bank-in-a-bank" projects.
+- Exposure to financial reconciliation tools, accounting sub-ledgers, or payments/transactions platforms.
+- Experience supporting finance transformation or modernization initiatives.
+- Background working in large enterprise or regulated industries
+
+The pay range for this role is $60-75/hr. It is a hybrid role with 3-4 days per week onsite in Downtown Toronto.
