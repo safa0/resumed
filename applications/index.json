@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-01-27T09:32:40.515Z",
+  "lastUpdated": "2026-01-27T09:41:36.574Z",
   "applications": [
     {
       "id": "2026-01-27-asana-product-owner-revenue-technology",
@@ -31,11 +31,21 @@
       "atsScore": 78,
       "location": "Toronto, ON (Hybrid)",
       "url": "https://www.linkedin.com/jobs/view/4361979734/"
+    },
+    {
+      "id": "2026-01-27-mufg-investor-services-director-it-technical-data-product-owner",
+      "company": "MUFG Investor Services",
+      "role": "Director IT Technical Data Product Owner",
+      "status": "saved",
+      "applied": null,
+      "atsScore": 93,
+      "location": "Toronto, ON (Hybrid)",
+      "url": "https://www.linkedin.com/jobs/view/4329655793/"
     }
   ],
   "stats": {
-    "total": 3,
-    "saved": 1,
+    "total": 4,
+    "saved": 2,
     "applied": 2,
     "interviewing": 0,
     "rejected": 0,

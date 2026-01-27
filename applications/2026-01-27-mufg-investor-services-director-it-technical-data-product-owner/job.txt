@@ -1,0 +1,57 @@
+# Director, IT, Technical Data Product Owner
+## MUFG Investor Services
+## Toronto, ON (Hybrid) | CA$125,843/yr - CA$184,569/yr | Full-time
+
+MUFG Investor Services is a trusted partner to many of the world's largest public and private funds, providing asset servicing and operational solutions built for alternatives. With over $1 trillion in client assets under administration, we offer fund administration, banking, payments, fund financing, foreign exchange overlay, corporate and regulatory services, custody, business consulting, and more. Operating from 17 locations worldwide, we help clients mitigate risk, enhance efficiency, and navigate the operational complexities of today's investment management landscape. As a division of Mitsubishi UFJ Financial Group (MUFG), one of the world's largest financial institutions with approximately $3 trillion in assets, we combine deep expertise with the strength and stability of a leading financial institution.
+
+## Job Description
+
+We are seeking a skilled and experienced Technical Product Owner to join our dynamic team. As a Technical Product Owner, you will play a crucial role in bridging the gap between technical and business stakeholders, ensuring the successful delivery of high-quality software products.
+
+## Key Responsibilities:
+
+- Manage all aspects of building our data product, including stakeholder feedback, business requirements, and BAU issues requiring project support.
+- Collaborate closely with the Agile squad to ensure alignment with the product vision and goals. Facilitate squad ceremonies such as daily stand-ups, sprint planning, and retrospectives to drive continuous improvement and team cohesion.
+- Ensure the usability, quality, and delivery of features and the product.
+- Participate in discovery sessions with stakeholders to define requirements clearly.
+- Analyse needs and priorities to build a better product and drive continuous improvement.
+- Create and maintain a prioritised Product Backlog in Epic and User stories format with clear acceptance criteria by liaising with respective teams and stakeholders.
+- Ensure that the Product Backlog is visible, transparent, and clear to all, ensuring the team has prepared tasks. Run backlog refinement sessions at regular intervals to continuously groom and plan prioritised features.
+- Ensure high ROI of development efforts by tracking business impact and relying on performance data to make informed decisions. Discuss and prioritize incoming bugs as part of triage activities.
+- Providing regular updates on product progress, challenges, and opportunities to leadership. Work collaboratively with the leads to align on strategic priorities and ensure the successful delivery of product features.
+
+## Qualifications:
+
+- Product Owner experience for building a technology platform in the Financial industry
+- 5+ Years Experience in managing successful delivery of products
+- Strong understanding of Agile methodologies, particularly Scrum and Kanban
+- Familiarity with modern data stack (AWS, Databricks, Apache Iceberg)
+- Proficiency in product management tools such as Jira and Confluence
+- Proficiency in data visualization tools (PowerBI, Tableau) and excel
+- Excellent knowledge of software development processes and the ability to communicate effectively with technical teams, as well as experience and an ability to communicate such concepts to non-technical stakeholders
+- Demonstrated experience in successful product deliveries and feature launches
+- Strong analytical skills with the ability to interpret data and make informed decisions
+- Outstanding communication and presentation skills, with the ability to articulate complex technical concepts to various audiences
+- Proven problem-solving abilities and decisiveness in a fast-paced environment
+- Ability to work collaboratively in a team environment while also being able to work independently when required
+
+## Preferred:
+
+- Experience in delivering Customer/Client Facing data led products
+- Experience in the alternative investment industry
+
+## Additional Information
+
+What's in it for you to join MUFG Investor Services?
+
+Take a look at our careers site and you'll find everything you'd expect working with one of the fastest-growing businesses at one of the world's largest financial groups. Now take another look. Because it's how we defy expectations that really defines us. You'll feel that difference in all kinds of ways. Our vibrant CULTURE. Connected team. Love of innovation, laser client focus.
+
+So, why settle for the ordinary? Apply now for your next Brilliantly Different opportunity.
+
+At MUFG Investor Services, we use Artificial Intelligence (AI) tools to help identify skills and experience that align with role requirements. All AI recommendations are reviewed by our recruitment team before any decisions are made.
+
+This is a newly created position.
+
+We thank all candidates for applying; however, only those proceeding to the interview stage will be contacted.
+
+We are an equal opportunity employer.

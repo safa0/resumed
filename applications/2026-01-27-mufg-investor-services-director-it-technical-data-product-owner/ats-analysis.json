@@ -1,0 +1,80 @@
+{
+  "score": 93,
+  "breakdown": {
+    "required_skills": {
+      "score": 27,
+      "max": 30,
+      "matches": [
+        "Product Owner",
+        "Agile/Scrum",
+        "Kanban",
+        "Jira",
+        "Confluence",
+        "Software development processes"
+      ],
+      "gaps": [
+        "Financial industry (nice-to-have)",
+        "Databricks",
+        "Apache Iceberg"
+      ]
+    },
+    "keywords": {
+      "score": 22,
+      "max": 25,
+      "matches": [
+        "Product Backlog",
+        "Sprint planning",
+        "User stories",
+        "Stakeholder",
+        "Agile squad",
+        "Backlog refinement",
+        "ROI",
+        "Technical teams"
+      ],
+      "gaps": ["Data product", "PowerBI", "Tableau"]
+    },
+    "experience": {
+      "score": 15,
+      "max": 15,
+      "notes": "5+ years required, candidate has 15+ years including direct PO experience"
+    },
+    "education": {
+      "score": 10,
+      "max": 10,
+      "notes": "University degree required, candidate has Master's in Computer Science"
+    },
+    "action_verbs": {
+      "score": 9,
+      "max": 10,
+      "found": [
+        "Led",
+        "Managed",
+        "Collaborated",
+        "Delivered",
+        "Coordinated",
+        "Defined"
+      ]
+    },
+    "format": {
+      "score": 10,
+      "max": 10,
+      "notes": "Clean JSON Resume format, ATS-friendly"
+    }
+  },
+  "recommendation": "Strong Match",
+  "key_strengths": [
+    "Direct Product Owner experience at DXC/Semcon and Ericsson",
+    "Strong Agile/Scrum background with backlog management",
+    "Technical architecture expertise bridges business and technical teams",
+    "Experience with Jira, Confluence, and CI/CD tooling",
+    "C-level stakeholder communication experience",
+    "Toronto location matches job location"
+  ],
+  "optimization_suggestions": [
+    "Add 'data product' and 'data platform' terminology",
+    "Emphasize stakeholder feedback and discovery sessions",
+    "Highlight ROI tracking and business impact measurement",
+    "Add 'sprint retrospectives' explicitly",
+    "Mention experience with modern data stack where applicable"
+  ]
+}
