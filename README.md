@@ -33,6 +33,7 @@ $ resumed --help
     export      Export resume to PDF
     init        Create sample resume
     validate    Validate resume
+    pages       Check page count and detect orphan/empty pages
 
   For more info, run any command with the `--help` flag
     $ resumed render --help
@@ -96,6 +97,33 @@ Validate resume.
 
 - `-h`, `--help`: Display help message
 
+### `pages`
+
+Check page count and detect layout issues in rendered resume.
+
+**Usage:** `resumed pages [filename] [options]`
+
+**Options:**
+
+- `-t`, `--theme`: Theme to use for rendering
+- `-h`, `--help`: Display help message
+
+**Validations:**
+
+- Resume must be 2-3 pages (fails if < 2 or > 3)
+- 2-page resume must have ≥90% content on page 2
+- 3-page resume must have ≥30% content on page 3 (no orphan pages)
+- No empty last pages (rendering bug detection)
+
+**Example:**
+
+```console
+$ resumed pages resume.json --theme jsonresume-theme-stackoverflow
+Pages: 3
+Last page fill: 35%
+✓ Page count is valid: 3 pages, 35% on last page
+```
+
 ## Motivation
 
 [resume-cli](https://github.com/jsonresume/resume-cli) is the original command line tool for [JSON Resume](https://jsonresume.org/), the open source initiative to create a JSON-based standard for resumes. It has served the community well for years, but its broad scope and aging codebase has become increasingly harder to maintain.
@@ -118,9 +146,16 @@ Resumed makes some compromises in terms of features, such as no local previews o
 
 ## TODO: Upstream Contributions
 
-The following fix should be submitted to the original [resumed repo](https://github.com/rbardini/resumed):
+The following fixes should be submitted to the original [resumed repo](https://github.com/rbardini/resumed):
 
 - **Commit `ee9045f`**: Fix local images not appearing in PDF exports
+
   - Problem: Puppeteer's `setContent()` can't resolve local file paths
   - Solution: Convert local image paths to base64 data URLs before rendering
   - Patch: `git format-patch -1 ee9045f`
+
+- **Commit `e669de7`**: Add `pages` command for resume page count validation
+  - Problem: No way to validate resume length before exporting PDF
+  - Solution: Add CLI command to check page count and detect layout issues
+  - Also fixes dual-margin bug with `preferCSSPageSize: true` in PDF export
+  - Patch: `git format-patch -1 e669de7`
