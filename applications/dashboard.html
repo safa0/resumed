@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Applications Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f3f4f6;
+      padding: 2rem;
+      color: #1f2937;
+    }
+    .container { max-width: 1400px; margin: 0 auto; }
+    h1 { margin-bottom: 1.5rem; color: #111827; }
+
+    .stats {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .stat-card {
+      background: white;
+      padding: 1.25rem 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      min-width: 140px;
+    }
+    .stat-card .value { font-size: 2rem; font-weight: 700; color: #111827; }
+    .stat-card .label { font-size: 0.875rem; color: #6b7280; margin-top: 0.25rem; }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid #e5e7eb; }
+    th {
+      background: #f9fafb;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+    }
+    th:hover { background: #f3f4f6; }
+    tr:hover { background: #f9fafb; }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    a { color: #3b82f6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .filters {
+      margin-bottom: 1rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      background: white;
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+    .filter-btn:hover { background: #f9fafb; }
+    .filter-btn.active { background: #3b82f6; color: white; border-color: #3b82f6; }
+
+    .search {
+      padding: 0.5rem 1rem;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      width: 250px;
+    }
+
+    .updated { color: #9ca3af; font-size: 0.875rem; margin-bottom: 1rem; }
+    .loading { text-align: center; padding: 2rem; color: #6b7280; }
+    .error { text-align: center; padding: 2rem; color: #ef4444; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Job Applications</h1>
+    <p class="updated" id="lastUpdated">Loading...</p>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="filters">
+      <input type="text" class="search" placeholder="Search company or role..." id="search">
+      <button class="filter-btn active" data-status="all">All</button>
+      <button class="filter-btn" data-status="saved">Saved</button>
+      <button class="filter-btn" data-status="applied">Applied</button>
+      <button class="filter-btn" data-status="interviewing">Interviewing</button>
+      <button class="filter-btn" data-status="offer">Offers</button>
+      <button class="filter-btn" data-status="rejected">Rejected</button>
+    </div>
+
+    <div class="card">
+      <table id="appTable">
+        <thead>
+          <tr>
+            <th data-sort="date">Date</th>
+            <th data-sort="company">Company</th>
+            <th data-sort="role">Role</th>
+            <th data-sort="location">Location</th>
+            <th data-sort="status">Status</th>
+            <th data-sort="ats">ATS</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr><td colspan="7" class="loading">Loading applications...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+    const statusColors = {
+      saved: '#6b7280',
+      applied: '#3b82f6',
+      interviewing: '#f59e0b',
+      offer: '#10b981',
+      rejected: '#ef4444',
+      withdrawn: '#9ca3af'
+    };
+
+    let applications = [];
+
+    function loadData() {
+      // APP_DATA is loaded from data.js script tag
+      if (typeof APP_DATA === 'undefined') {
+        document.getElementById('tableBody').innerHTML =
+          `<tr><td colspan="7" class="error">Run "node cli.js export" to generate data.js</td></tr>`;
+        return;
+      }
+
+      applications = APP_DATA.applications || [];
+
+      document.getElementById('lastUpdated').textContent =
+        `Last updated: ${new Date(APP_DATA.lastUpdated).toLocaleString()}`;
+
+      renderStats(APP_DATA.stats);
+      renderTable();
+    }
+
+    function renderStats(stats) {
+      const responded = (stats.interviewing || 0) + (stats.offer || 0) + (stats.rejected || 0);
+      const responseRate = stats.applied > 0 ? Math.round((responded / stats.applied) * 100) : 0;
+
+      document.getElementById('stats').innerHTML = `
+        <div class="stat-card"><div class="value">${stats.total || 0}</div><div class="label">Total</div></div>
+        <div class="stat-card"><div class="value">${stats.saved || 0}</div><div class="label">Saved</div></div>
+        <div class="stat-card"><div class="value">${stats.applied || 0}</div><div class="label">Applied</div></div>
+        <div class="stat-card"><div class="value">${stats.interviewing || 0}</div><div class="label">Interviewing</div></div>
+        <div class="stat-card"><div class="value">${stats.offer || 0}</div><div class="label">Offers</div></div>
+        <div class="stat-card"><div class="value">${stats.rejected || 0}</div><div class="label">Rejected</div></div>
+        <div class="stat-card"><div class="value">${responseRate}%</div><div class="label">Response Rate</div></div>
+      `;
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+
+      if (applications.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" class="loading">No applications yet</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = applications.map(app => `
+        <tr data-status="${app.status}">
+          <td>${app.applied || '-'}</td>
+          <td><strong>${app.company}</strong></td>
+          <td>${app.role}</td>
+          <td>${app.location || '-'}</td>
+          <td><span class="badge" style="background:${statusColors[app.status] || '#6b7280'}">${app.status}</span></td>
+          <td>${app.atsScore ? app.atsScore + '%' : '-'}</td>
+          <td>
+            ${app.url ? `<a href="${app.url}" target="_blank">Job</a>` : '-'}
+            | <a href="${app.id}/">Folder</a>
+          </td>
+        </tr>
+      `).join('');
+
+      filterTable();
+    }
+
+    // Filter by status
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        filterTable();
+      });
+    });
+
+    // Search
+    document.getElementById('search').addEventListener('input', filterTable);
+
+    function filterTable() {
+      const status = document.querySelector('.filter-btn.active').dataset.status;
+      const search = document.getElementById('search').value.toLowerCase();
+
+      document.querySelectorAll('#appTable tbody tr').forEach(row => {
+        const rowStatus = row.dataset.status || '';
+        const text = row.textContent.toLowerCase();
+
+        const statusMatch = status === 'all' || rowStatus === status;
+        const searchMatch = !search || text.includes(search);
+
+        row.style.display = statusMatch && searchMatch ? '' : 'none';
+      });
+    }
+
+    // Sort
+    let sortDir = {};
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.sort;
+        sortDir[col] = !sortDir[col];
+        sortTable(col, sortDir[col]);
+      });
+    });
+
+    function sortTable(col, asc) {
+      const tbody = document.getElementById('tableBody');
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      const colIndex = { date: 0, company: 1, role: 2, location: 3, status: 4, ats: 5 }[col];
+
+      rows.sort((a, b) => {
+        let aVal = a.cells[colIndex]?.textContent || '';
+        let bVal = b.cells[colIndex]?.textContent || '';
+        if (col === 'ats') {
+          aVal = parseInt(aVal) || 0;
+          bVal = parseInt(bVal) || 0;
+          return asc ? aVal - bVal : bVal - aVal;
+        }
+        return asc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+      });
+
+      rows.forEach(row => tbody.appendChild(row));
+    }
+
+    // Load data on page load
+    loadData();
+  </script>
+</body>
+</html>

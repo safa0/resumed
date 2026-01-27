@@ -1,0 +1,66 @@
+{
+  "$schema": "./config.schema.json",
+  "defaults": {
+    "email": "sam.c.safaei@gmail.com",
+    "citizenship": "Sweden",
+    "image": "1745316410292.jpeg"
+  },
+  "profiles": {
+    "po_toronto": {
+      "description": "Product Owner roles in Toronto/Canada",
+      "base": "bases/po.json",
+      "location": "locations/toronto.json",
+      "pdf_name": "Sam_Safaei_PO_Toronto.pdf"
+    },
+    "po_sweden": {
+      "description": "Product Owner roles in Sweden/EU",
+      "base": "bases/po.json",
+      "location": "locations/sweden.json",
+      "pdf_name": "Sam_Safaei_PO_Sweden.pdf"
+    },
+    "po_remote": {
+      "description": "Remote Product Owner roles",
+      "base": "bases/po.json",
+      "location": "locations/remote.json",
+      "pdf_name": "Sam_Safaei_PO_Remote.pdf"
+    },
+    "embedded_toronto": {
+      "description": "Embedded/SWE roles in Toronto/Canada",
+      "base": "bases/embedded.json",
+      "location": "locations/toronto.json",
+      "pdf_name": "Sam_Safaei_Embedded_Toronto.pdf"
+    },
+    "embedded_sweden": {
+      "description": "Embedded/SWE roles in Sweden/EU",
+      "base": "bases/embedded.json",
+      "location": "locations/sweden.json",
+      "pdf_name": "Sam_Safaei_Embedded_Sweden.pdf"
+    },
+    "embedded_remote": {
+      "description": "Remote Embedded/SWE roles",
+      "base": "bases/embedded.json",
+      "location": "locations/remote.json",
+      "pdf_name": "Sam_Safaei_Embedded_Remote.pdf"
+    }
+  },
+  "screening_defaults": {
+    "toronto": {
+      "authorized_to_work": true,
+      "requires_sponsorship": false,
+      "willing_to_relocate": false,
+      "available_hybrid": true
+    },
+    "sweden": {
+      "authorized_to_work": true,
+      "requires_sponsorship": false,
+      "willing_to_relocate": false,
+      "available_hybrid": true
+    },
+    "remote": {
+      "authorized_to_work": true,
+      "requires_sponsorship": false,
+      "willing_to_relocate": true,
+      "available_hybrid": false
+    }
+  }
+}

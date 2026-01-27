@@ -1,0 +1,27 @@
+{
+  "basics": {
+    "phone": "+1-647-562-4007",
+    "location": {
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "url": "https://github.com/safa0",
+        "username": "safa0",
+        "network": "github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/sam-safaei/",
+        "username": "sam-safaei",
+        "network": "linkedin"
+      }
+    ]
+  },
+  "work_authorization": {
+    "authorized": true,
+    "requires_sponsorship": false,
+    "notes": "Swedish citizen, authorized to work in Canada"
+  }
+}

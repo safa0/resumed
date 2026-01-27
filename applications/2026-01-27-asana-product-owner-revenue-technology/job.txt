@@ -1,0 +1,49 @@
+# Product Owner, Revenue Technology
+## Asana - Vancouver, BC (Hybrid)
+## Salary: $128,000-145,000 CAD
+
+We're looking for a Product Owner to join Asana's Revenue Technology (RevTech) team—a key pillar within the Enterprise Technology function. RevTech supports Asana's Go-To-Market (GTM) teams by managing the tools, technology, and data that drive growth and scale across Sales, Support, Renewals, Partnerships, and Customer Success.
+
+In this role, you'll work closely with business stakeholders to ensure their systems and tools—including Salesforce Sales Cloud, Revenue Cloud (CPQ), Service Cloud, Experience Cloud (CX Portal), Clari, Outreach, and partner portals—are functioning effectively. You'll help address business needs by triaging requests, investigating issues, and facilitating enhancements in partnership with cross-functional teams.
+
+This role is based in our Vancouver office with an office-centric hybrid schedule. The standard in-office days are Monday, Tuesday, and Thursday. Most Asanas have the option to work from home on Wednesdays. Working from home on Fridays depends on the type of work you do and the teams with which you partner.
+
+## What you'll achieve:
+
+- Own systems & tooling needs for the business teams RevTech supports including Sales, Partnerships, Renewals, Customer Success, Professional Service and Customer Support with tools such as Salesforce Sales Cloud, Revenue Cloud (CPQ), PRM (Partner portal), Salesforce Service Cloud, Experience Cloud (CX Portal), Clari, Outreach, Pocus, Traction Complete etc.
+- Review current 'Run the Business' requests — triage and prioritize. Troubleshoot and debug issues, identify possible fixes or workarounds, write SOQL/SOSL queries, and perform data loads. Implement permission and configuration changes in the system, perform Salesforce admin tasks, and provide guidance to foster a culture of continuous improvement and adaptability for Run requests
+- Run grooming sessions with cross-functional stakeholders, ensure business partners are kept informed of progress, drive alignment on priorities, and write clear and actionable acceptance criteria to support development efforts.
+- Move fast to get the business up and running when there is any system impact.
+- Collaborate closely with business partners (Revenue, Field Teams, RevOps, FinOps, Enterprise Technology, R&D) to address system issues and change requests promptly, ensuring scalable solutions.
+- Work closely with the data & integrations team to identify & set up monitoring capabilities for the tool to proactively identify data errors & inaccuracies, pipeline failures, and recommend automation where necessary.
+- Build strong partnerships with pillar Product Owners and ensure documentation is updated for projects involving system redesigns or other significant changes.
+
+## About you:
+
+- 5+ years of experience working in an environment supporting enterprise business systems.
+- Ability to understand/read complex Salesforce logic Flows/Apex code. Salesforce Administrator experience and Certification are a Plus.
+- Experience in Salesforce Force.com platform, Salesforce Sales Cloud, Salesforce CPQ, Salesforce Service Cloud, or similar tools. Technology experience with GainSight (or similar customer success solution), and IronClad (or similar CLM solutions) is a plus.
+- Able to understand customer needs and translate them into product requirements. You have empathy for your customers, conduct user research, and have a deep understanding of the customer journey.
+- Able to think strategically about your product and how it fits into the larger picture of your company's goals and objectives. This means understanding market trends, competitive landscape, and how your product can differentiate itself in the market.
+- Deep understanding of Agile Methodology practices, including sprint planning, backlog grooming, and sprint reviews. You work collaboratively with cross-functional teams, including developers, designers, and stakeholders.
+- Strong communication skills are required to effectively communicate the vision, goals, and requirements of your product to stakeholders, customers, and team members. You listen actively, ask good questions, and provide clear and concise feedback. You adapt your communication style to different audiences and situations.
+- Demonstrates curiosity about AI tools and emerging technologies, with a willingness to learn and leverage them to enhance productivity, collaboration, or decision-making
+
+## What We'll Offer
+
+Our comprehensive compensation package plays a big part in how we recognize you for the impact you have on our path to achieving our mission. We believe that compensation should be reflective of the value you create relative to the market value of your role. To ensure pay is fair and not impacted by biases, we're committed to looking at market value, which is why we check ourselves and conduct a yearly pay equity audit.
+
+For this role, the estimated base salary range is between $128,000-145,000 CAD. The actual base salary will vary based on various factors, including market and individual qualifications objectively assessed during the interview process.
+
+In addition to base salary, your compensation package may include additional components such as equity, sales incentive pay (for most sales roles), and benefits.
+
+## Benefits:
+- Mental health, wellness & fitness benefits
+- Career coaching & support
+- Inclusive family building benefits
+- Long-term savings or retirement plans
+- In-office culinary options to cater to your dietary preferences
+
+## About Asana
+
+Asana is a leading platform for human + AI collaboration. Millions of teams around the world rely on Asana to achieve their most important goals, faster. Asana has been named to Fortune's Best Workplaces for 7+ years and recognized by Fast Company, Forbes, and Gartner for excellence in workplace culture and innovation.

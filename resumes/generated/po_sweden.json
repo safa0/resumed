@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "theme": "jsonresume-theme-stackoverflow"
+  },
+  "basics": {
+    "name": "Sam Safaei",
+    "label": "Product Management / Software Architecture",
+    "image": "../../1745316410292.jpeg",
+    "summary": "With over 15 years of experience, I have excelled in product and software project management, software engineering, test and verification, and leadership across various stages of the software lifecycle. As a Product Owner, Project Manager, and Senior Consultant, I have driven requirement gathering, roadmap prioritization, and strategic cross-functional collaboration to deliver complex software solutions and guide organizations in achieving modular, scalable architectures. My expertise includes client interaction, agile leadership, and backlog management, underpinned by a strong foundation in software development using C++, Python, and DevOps practices. I bring a proven ability to align technical execution with business goals, optimize processes, and deliver impactful, high-quality solutions in dynamic environments while advising clients on strategic software transformations.",
+    "email": "sam.c.safaei@gmail.com",
+    "citizenship": "Sweden",
+    "phone": "+46-72-529-8836",
+    "location": {
+      "city": "Stockholm",
+      "countryCode": "SE",
+      "region": "Stockholm"
+    },
+    "profiles": [
+      {
+        "url": "https://github.com/safa0",
+        "username": "safa0",
+        "network": "github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/sam-safaei/",
+        "username": "sam-safaei",
+        "network": "linkedin"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Project Management",
+      "keywords": [
+        "Product Ownership",
+        "Scaled Agile Framework (SAFe)",
+        "Backlog Prioritization",
+        "Roadmap Development",
+        "Requirements Engineering",
+        "MVP Definition",
+        "User Story Mapping",
+        "Project Planning"
+      ]
+    },
+    {
+      "name": "Leadership & Soft Skills",
+      "keywords": [
+        "Stakeholder Management",
+        "Client Relations",
+        "Cross-functional Leadership",
+        "Strategic Communication",
+        "Change Management",
+        "Problem Solving",
+        "Conflict Resolution",
+        "Mentoring"
+      ]
+    },
+    {
+      "name": "Development & Tools",
+      "keywords": [
+        "Docker",
+        "Git",
+        "Jira",
+        "Confluence",
+        "Kubernetes",
+        "Jenkins",
+        "Microsoft Project",
+        "Atlassian",
+        "C++",
+        "CMake",
+        "Python",
+        "Embedded Systems",
+        "Design Patterns",
+        "Domain Driven Design"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Modular Management",
+      "company": "Modular Management",
+      "position": "Software Architecture Advisor",
+      "startDate": "2022-10",
+      "summary": "Management Consulting firm focused on modular product architecture and platform strategy. We assist clients to align software requirements with scalable platform architectures, enabling reuse, reducing complexity, and moving from isolated product developments to modular scalable platform development enabling several product verticals.",
+      "highlights": [
+        "Clients: BD Rowa, Electrolux Professional, Balluff, Sandvik, Metso Autotek, and more",
+        "Led cross-functional workshops to design overall platform and solution architectures that balance customer needs, engineering requirements, and business strategies",
+        "Collaborated with client leadership to align software, hardware, and mechanical design strategies, promoting cross-disciplinary integration and platform scalability",
+        "Identified and addressed critical pain points in existing architectures, fostering cross-disciplinary alignment and driving strategic improvements",
+        "Guided clients in integrating business objectives into architectural planning, ensuring alignment with long-term strategic goals",
+        "Review overall product and platform architecture, and provide recommendations for improvement"
+      ]
+    },
+    {
+      "name": "Semcon / DXC Technology",
+      "company": "Semcon / DXC Technology",
+      "position": "Product Owner",
+      "startDate": "2020-08",
+      "endDate": "2022-10",
+      "summary": "DXC Technology Automotive Line of Business provides software solutions for automotive OEMs and Tier 1 suppliers. Our team of 60-members, Service Layer, supplies the Android Automotive stack for in-vehicle-infotainment (IVI).",
+      "highlights": [
+        "Product Owner for Android Automotive's Service Layer components: Audio, Radio, Media, and voice control",
+        "Defined and refined requirements, managing product backlog and roadmap priorities",
+        "Led and coordinated three development teams and third-party suppliers",
+        "Drafted and negotiated contracts, outlining roles and responsibilities for stakeholders",
+        "Aligned development roadmaps with both internal and external suppliers and clients, responsible for timely delivery",
+        "Proactively identified and resolved blockers to ensure smooth project execution",
+        "Leveraged experience with virtual assistants to improve cross-functional collaboration"
+      ]
+    },
+    {
+      "name": "Semcon / YetiMove",
+      "company": "Semcon / YetiMove",
+      "position": "Senior Software Engineer",
+      "startDate": "2019-01",
+      "endDate": "2020-08",
+      "summary": "YetiMove provides autonomous technology and cloud-based fleet management, starting with self-driving snow ploughs for airports and expanding to heavy machinery solutions. We hold major global contracts, including autonomous snow removal for Swedavia airports.",
+      "highlights": [
+        "Clients: Swedavia, Husqvarna, Overassen, and more",
+        "Designed, implemented, and maintained the equipment control components as component owner in C++",
+        "Facilitated communication between the server, PLC components, and autonomous decision-making systems",
+        "Translated business logic between cloud servers and PLCs, ensuring accurate updates from sensors",
+        "Refactored the component from the ground up, incorporating state machines, communication layers, and fail-safe mechanisms",
+        "Managed a comprehensive fleet management solution, including user portal, cloud server, and embedded systems",
+        "Responsible for commercialization and commissioning of the solution in the field"
+      ]
+    },
+    {
+      "name": "Semcon",
+      "company": "Semcon",
+      "position": "Senior Software Engineer",
+      "startDate": "2018-01",
+      "endDate": "2019-01",
+      "summary": "Developed an AI-driven virtual assistant for natural language information retrieval, similar to Google Home.",
+      "highlights": [
+        "Assisted Data scientist with data pipelines and AI systems, focusing on natural language understanding (NLU)",
+        "Built a microservice architecture with backend components and communication managed in Python",
+        "Integration and customization of speech recognition using Mozilla's DeepSpeech and post-processing scripts",
+        "Created ontology generation and retrieval processes using Stanford NLP and sequence-to-sequence models"
+      ]
+    },
+    {
+      "name": "Ericsson",
+      "company": "Ericsson",
+      "position": "Senior Software Engineer (L6) / Product Owner",
+      "startDate": "2012-01",
+      "endDate": "2018-01",
+      "summary": "Ericsson, Packet Core (EPC 4G/5G) provides internet backbone and core network functionality for mobile communications.",
+      "highlights": [
+        "Between 2012 and 2018, I held diverse roles, contributing to software development, team leadership, and tool implementation to optimize processes",
+        "Enhanced mini-link product efficiency by introducing tools like profilers and IWYU (Include What You Use)",
+        "Migrated and refactored legacy Rhapsody code to classic C++",
+        "Worked directly with clients such as Verizon as part of professional services teams",
+        "Focus on functional testing, bug resolution, and proposed, implemented and deployed tools and solutions, as lead engineer and acting product owner, adopted by 300+ developers",
+        "Delivered agile coaching and software design training internationally for Session Gateway (Mobile backbone of 4G/5G networks) in China"
+      ]
+    },
+    {
+      "name": "Volvo Trucks",
+      "company": "Volvo Trucks",
+      "position": "Research Engineer",
+      "startDate": "2011-01",
+      "endDate": "2012-01",
+      "summary": "Volvo Trucks, Advanced Technology & Research",
+      "highlights": [
+        "Developed predictive models for software migration from single to multicore platforms",
+        "Measured inter/intra-core communication times in AUTOSAR to identify bottlenecks"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chalmers University of Technology",
+      "area": "Computer Science",
+      "studyType": "M.Sc.",
+      "startDate": "2010",
+      "endDate": "2012"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2024-12",
+      "issuer": "Amazon Web Services (AWS)"
+    },
+    {
+      "name": "AI Product Management",
+      "date": "2024-06",
+      "issuer": "EPFL University, Switzerland"
+    },
+    {
+      "name": "Certified SAFe 5 Product Owner/Product Manager",
+      "date": "2021-07",
+      "issuer": "Scaled Agile"
+    }
+  ],
+  "work_authorization": {
+    "authorized": true,
+    "requires_sponsorship": false,
+    "notes": "Swedish citizen, EU work rights"
+  },
+  "_generated": {
+    "profile": "po_sweden",
+    "base": "bases/po.json",
+    "location": "locations/sweden.json",
+    "timestamp": "2026-01-27T09:00:19.557Z"
+  }
+}

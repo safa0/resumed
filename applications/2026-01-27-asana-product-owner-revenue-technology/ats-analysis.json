@@ -1,0 +1,78 @@
+{
+  "score": 72,
+  "breakdown": {
+    "requiredSkills": {
+      "score": 70,
+      "weight": 30,
+      "matched": [
+        "Product Owner experience (2+ years at Semcon/DXC)",
+        "5+ years enterprise systems (15+ years total)",
+        "Agile Methodology (SAFe certified, sprint planning, backlog grooming)",
+        "Cross-functional collaboration",
+        "Strong communication skills",
+        "Strategic thinking",
+        "Customer needs translation to requirements"
+      ],
+      "missing": [
+        "Salesforce experience (Sales Cloud, CPQ, Service Cloud)",
+        "SOQL/SOSL queries",
+        "Salesforce Admin certification"
+      ]
+    },
+    "keywords": {
+      "score": 65,
+      "weight": 25,
+      "matched": [
+        "Product Owner",
+        "Agile",
+        "Sprint planning",
+        "Backlog grooming",
+        "Cross-functional",
+        "Stakeholder management",
+        "Requirements",
+        "Acceptance criteria",
+        "Enterprise",
+        "Data integration"
+      ],
+      "missing": [
+        "Salesforce",
+        "CPQ",
+        "Revenue Cloud",
+        "Service Cloud",
+        "SOQL",
+        "GainSight",
+        "Clari",
+        "Outreach"
+      ]
+    },
+    "experience": {
+      "score": 95,
+      "weight": 15,
+      "notes": "15+ years experience far exceeds 5+ year requirement. Direct PO experience at Semcon/DXC and Ericsson."
+    },
+    "education": {
+      "score": 100,
+      "weight": 10,
+      "notes": "M.Sc. Computer Science from Chalmers - bonus: Chalmers alumni work at Asana"
+    },
+    "actionVerbs": {
+      "score": 85,
+      "weight": 10,
+      "matched": ["Led", "Defined", "Collaborated", "Aligned", "Managed", "Coordinated", "Delivered"],
+      "missing": ["Triaged", "Debugged", "Configured"]
+    },
+    "format": {
+      "score": 90,
+      "weight": 10,
+      "notes": "JSON Resume format, well-structured, ATS-friendly"
+    }
+  },
+  "recommendation": "Good Match",
+  "summary": "Strong PO experience and Agile expertise match well. Main gap is Salesforce-specific experience which is emphasized in this RevTech role. Consider highlighting any CRM/enterprise tool administration experience and emphasizing technical troubleshooting skills.",
+  "suggestions": [
+    "Add 'Enterprise Systems' or 'CRM platforms' to skills if applicable",
+    "Emphasize technical debugging and issue triage experience from Ericsson role",
+    "Highlight AI/emerging technology interest (matches job requirement)",
+    "Mention data pipeline and integration experience from Semcon AI project"
+  ]
+}

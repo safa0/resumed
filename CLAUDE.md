@@ -254,3 +254,52 @@ A custom ATS scoring skill is available at `~/.claude/skills/resume-ats/SKILL.md
 | Education       | 10%    | Degree match                          |
 | Action Verbs    | 10%    | Led, designed, implemented, etc.      |
 | Format          | 10%    | ATS-friendly structure                |
+
+## LinkedIn Job Application Automation
+
+A custom LinkedIn job search and Easy Apply skill is available at `~/.claude/skills/linkedin-apply/SKILL.md`.
+
+### Prerequisites
+
+- **Playwright MCP** must be installed:
+  ```bash
+  claude mcp add playwright -- npx @playwright/mcp@latest
+  ```
+- Must be logged into LinkedIn in the Playwright browser session
+
+### LinkedIn Apply Workflow
+
+1. **Search** - Search LinkedIn for jobs with Easy Apply filter
+2. **Score** - Score each job against your resume using ATS analysis
+3. **Filter** - Only apply to jobs with 70%+ match score
+4. **Tailor** - Generate cover letter with job-specific keywords
+5. **Apply** - Automate Easy Apply form (with user confirmation)
+
+### Usage Examples
+
+```bash
+# Search only
+"Search for Product Owner jobs in Toronto"
+
+# Search + score
+"Find Software Architect jobs in Remote and score them"
+
+# Full apply workflow
+"Apply to Product Owner jobs in Toronto"
+```
+
+### Safety Features
+
+- **Never auto-submits** - Always requires user approval before each application
+- **Match threshold** - Only suggests jobs with 70%+ ATS score
+- **Rate limiting** - 45 second delay between applications
+- **Application log** - Tracks all applications at `~/.claude/linkedin-applications.json`
+
+### Configuration
+
+Edit `~/.claude/linkedin-apply-config.json` to customize:
+- Minimum match score threshold
+- Max applications per session
+- Excluded companies
+- Default resume path
+- Screening question defaults

@@ -1,0 +1,27 @@
+{
+  "basics": {
+    "phone": "+46-72-529-8836",
+    "location": {
+      "city": "Stockholm",
+      "countryCode": "SE",
+      "region": "Stockholm"
+    },
+    "profiles": [
+      {
+        "url": "https://github.com/safa0",
+        "username": "safa0",
+        "network": "github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/sam-safaei/",
+        "username": "sam-safaei",
+        "network": "linkedin"
+      }
+    ]
+  },
+  "work_authorization": {
+    "authorized": true,
+    "requires_sponsorship": false,
+    "notes": "Swedish citizen, EU work rights"
+  }
+}
