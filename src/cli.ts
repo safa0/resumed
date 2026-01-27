@@ -2,8 +2,8 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { basename, extname } from 'node:path'
 import sade from 'sade'
 import stripJsonComments from 'strip-json-comments'
-import { red, yellow } from 'yoctocolors'
-import { init, pdf, render, validate } from './index.js'
+import { green, red, yellow } from 'yoctocolors'
+import { getPageCount, init, pdf, render, validate } from './index.js'
 import type { Resume, Theme } from './types.js'
 
 type RenderOptions = {
@@ -126,3 +126,59 @@ cli
       process.exitCode = 1
     }
   })
+
+cli
+  .command('pages [filename]', 'Check page count and detect orphan/empty pages')
+  .option('-t, --theme', 'Theme to use for rendering')
+  .action(
+    async (filename: string = DEFAULT_FILENAME, { theme }: RenderOptions) => {
+      const resume = await getResume(filename)
+      const themeModule = await getThemeModule(resume, theme)
+      const html = await render(resume, themeModule)
+      const result = await getPageCount(html)
+
+      console.log(`Pages: ${result.pages}`)
+      console.log(`Last page fill: ${result.lastPageFill}%`)
+
+      if (result.hasEmptyLastPage) {
+        console.log(
+          red('⚠ Empty last page detected. This is a rendering bug.'),
+        )
+        process.exitCode = 1
+        return
+      }
+      if (result.pages < 2) {
+        console.log(red('⚠ Resume is less than 2 pages. Add more content.'))
+        process.exitCode = 1
+        return
+      }
+      if (result.pages > 3) {
+        console.log(red('⚠ Resume exceeds 3 pages. Trim content.'))
+        process.exitCode = 1
+        return
+      }
+      if (result.hasUnderfilled2ndPage) {
+        console.log(
+          yellow(
+            `⚠ Page 2 has only ${result.lastPageFill}% content. Add more content to fill page 2 (need ≥90%).`,
+          ),
+        )
+        process.exitCode = 1
+        return
+      }
+      if (result.hasOrphanLastPage && result.pages === 3) {
+        console.log(
+          yellow(
+            `⚠ Page 3 has only ${result.lastPageFill}% content (orphan). Adjust content.`,
+          ),
+        )
+        process.exitCode = 1
+        return
+      }
+      console.log(
+        green(
+          `✓ Page count is valid: ${result.pages} pages, ${result.lastPageFill}% on last page`,
+        ),
+      )
+    },
+  )

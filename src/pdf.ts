@@ -85,6 +85,7 @@ export const pdf = async (
 
   await page.setContent(processedHtml, { waitUntil: 'networkidle0' })
   const rendered = await page.pdf({
+    preferCSSPageSize: true, // Let CSS @page control margins, avoid double-margin
     ...themeModule.pdfRenderOptions,
     ...resume.meta?.pdfRenderOptions,
   })
