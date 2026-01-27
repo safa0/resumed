@@ -8,3 +8,4 @@ resume.html
 resume.json
 resume.pdf
 src/resume-schema.d.ts
+.worktrees/
