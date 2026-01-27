@@ -257,7 +257,13 @@ A custom ATS scoring skill is available at `~/.claude/skills/resume-ats/SKILL.md
 
 ## LinkedIn Job Application Automation
 
-A custom LinkedIn job search and Easy Apply skill is available at `~/.claude/skills/linkedin-apply/SKILL.md`.
+A custom LinkedIn job search and Easy Apply skill is available at `~/.claude/skills/apply/SKILL.md`.
+
+### Quick Start
+
+```bash
+/apply PO roles in Canada
+```
 
 ### Prerequisites
 
@@ -267,25 +273,34 @@ A custom LinkedIn job search and Easy Apply skill is available at `~/.claude/ski
   ```
 - Must be logged into LinkedIn in the Playwright browser session
 
-### LinkedIn Apply Workflow
+### Full Apply Workflow
+
+For EACH job application, the skill:
 
 1. **Search** - Search LinkedIn for jobs with Easy Apply filter
 2. **Score** - Score each job against your resume using ATS analysis
-3. **Filter** - Only apply to jobs with 70%+ match score
-4. **Tailor** - Generate cover letter with job-specific keywords
-5. **Apply** - Automate Easy Apply form (with user confirmation)
+3. **Create Application Folder** - All artifacts in `applications/{date}-{company}-{role}/`
+4. **Generate Tailored Resume** - Custom `resume.json` with job-specific keywords
+5. **Render Resume HTML** - `resume.html` from tailored resume
+6. **Generate Job HTML** - `job.html` from job description
+7. **Write Cover Letter** - Tailored `cover-letter.md`
+8. **Apply** - Automate Easy Apply form (with user confirmation)
+9. **Track** - Update `index.json`, `data.js`, `export.csv`
 
 ### Usage Examples
 
 ```bash
+# Full apply workflow (short form)
+/apply PO roles in Canada
+
+# Full apply workflow (verbose)
+/apply Product Owner jobs in Toronto
+
 # Search only
-"Search for Product Owner jobs in Toronto"
+/apply search PO jobs in Toronto
 
 # Search + score
-"Find Software Architect jobs in Remote and score them"
-
-# Full apply workflow
-"Apply to Product Owner jobs in Toronto"
+/apply score Software Architect jobs against my resume
 ```
 
 ### Safety Features
@@ -294,10 +309,26 @@ A custom LinkedIn job search and Easy Apply skill is available at `~/.claude/ski
 - **Match threshold** - Only suggests jobs with 70%+ ATS score
 - **Rate limiting** - 45 second delay between applications
 - **Application log** - Tracks all applications at `~/.claude/linkedin-applications.json`
+- **Full artifacts** - Every application has tailored resume, cover letter, job description
+
+### Screening Question Defaults
+
+The skill auto-fills common screening questions without asking:
+
+| Question Type          | Default Answer                |
+| ---------------------- | ----------------------------- |
+| Work authorization     | Always "Yes"                  |
+| Gender identity        | "Man" or "Male"               |
+| Salary expectations    | Lowest option or "Negotiable" |
+| Privacy/consent        | Always consent                |
+| AI confirmation        | Always confirm                |
+| DEIB (ethnicity, etc.) | "Prefer not to say"           |
+| Follow company         | Always UNCHECK                |
 
 ### Configuration
 
-Edit `~/.claude/linkedin-apply-config.json` to customize:
+Edit `~/.claude/apply-config.json` to customize:
+
 - Minimum match score threshold
 - Max applications per session
 - Excluded companies
