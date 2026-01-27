@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-01-27T09:41:36.574Z",
+  "lastUpdated": "2026-01-27T10:17:46.640Z",
   "applications": [
     {
       "id": "2026-01-27-asana-product-owner-revenue-technology",
@@ -41,12 +41,31 @@
       "atsScore": 93,
       "location": "Toronto, ON (Hybrid)",
       "url": "https://www.linkedin.com/jobs/view/4329655793/"
+    },
+    {
+      "id": "2026-01-27-viralconvert-operational-po-delivery-lead",
+      "company": "ViralConvert",
+      "role": "Operational Product Owner / Delivery Lead",
+      "status": "applied",
+      "applied": "2026-01-27",
+      "atsScore": null,
+      "location": "Lund, Sweden (On-site)",
+      "url": "https://www.linkedin.com/jobs/view/4366233398/"
+    },
+    {
+      "id": "2026-01-27-asenium-consulting-product-owner-ai-chatbot",
+      "company": "Asenium Consulting",
+      "role": "Product Owner - AI Chatbot",
+      "status": "applied",
+      "applied": null,
+      "location": "European Union (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4362334087/"
     }
   ],
   "stats": {
-    "total": 4,
+    "total": 6,
     "saved": 2,
-    "applied": 2,
+    "applied": 4,
     "interviewing": 0,
     "rejected": 0,
     "withdrawn": 0,

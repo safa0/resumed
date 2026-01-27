@@ -1,0 +1,37 @@
+# Product Owner - AI Chatbot
+## Asenium Consulting
+## European Union (Remote) | 6+ months renewable | Contract
+
+For one of my customer we are looking for a AI Product Owner for a AI chatbot.
+
+Duration: 6+ months renewable
+Location: Europe(100% remote)
+
+Description:
+
+The AI Chatbot Product Owner is responsible for owning and evolving enterprise AI chatbot portfolio, including:
+
+- Externally provided AI solutions (e.g. ChatGPT Enterprise, Microsoft Copilot and similar platforms)
+- Internal AI chatbots developed by (internal AI chatbots)
+
+The role ensures these solutions deliver consistent, secure, and high-value conversational AI experiences across the organization. This includes defining use cases, managing integrations, ensuring adoption, and aligning internal and external chatbot capabilities into a coherent ecosystem. This position sits at the intersection of business needs, enterprise AI platforms, and product execution, with a strong emphasis on prioritization, vendor coordination, fast learning, and continuous improvement in a rapidly evolving Generative AI landscape.
+
+Key Responsibilities:
+
+- Product Ownership & Value Delivery
+- Agile Execution & Backlog Management
+- Stakeholder Engagement
+- AI & Technology Enablement
+- Performance, Adoption & Continuous Improvement
+- Governance & Risk Management
+
+Experience:
+
+- 5+ years of experience as a Product Owner, Product Manager, or Business Analyst delivering software products.
+- 3+ years of hands-on experience working in agile development environments.
+- Proven experience managing complex, technical products or platforms, preferably at enterprise scale.
+- Strong understanding of Generative AI technologies (e.g. ChatGPT, Copilot, Gemini), AI architectures, and AI product lifecycles.
+- Experience working with multi-team or multi-squad delivery models.
+- Ability to translate business needs into detailed technical requirements.
+- Strong data-driven mindset (OKRs, KPIs, metrics-based prioritization).
+- Certifications (preferred): CSPO or PSPO I

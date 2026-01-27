@@ -1,0 +1,94 @@
+{
+  "job": {
+    "title": "Product Owner - AI Chatbot",
+    "company": "Asenium Consulting",
+    "location": "European Union (Remote)"
+  },
+  "resume": {
+    "name": "Sam Safaei",
+    "file": "/Users/safa/Documents/repos/resumed/resumes/bases/po.json"
+  },
+  "overall_score": 78,
+  "rating": "Good Match",
+  "breakdown": {
+    "required_skills": {
+      "score": 25,
+      "max": 30,
+      "notes": "Strong match on Product Owner, Agile, backlog management - missing AI-specific experience"
+    },
+    "keywords": {
+      "score": 18,
+      "max": 25,
+      "notes": "Good coverage of product management terms - needs more AI/chatbot keywords"
+    },
+    "experience": {
+      "score": 15,
+      "max": 15,
+      "notes": "15+ years with strong Product Owner track record exceeds 5+ requirement"
+    },
+    "education": {
+      "score": 10,
+      "max": 10,
+      "notes": "M.Sc. Computer Science meets requirements"
+    },
+    "action_verbs": {
+      "score": 9,
+      "max": 10,
+      "notes": "Strong use of action verbs (Led, Defined, Managed, Designed)"
+    },
+    "format": {
+      "score": 10,
+      "max": 10,
+      "notes": "JSON Resume format is perfectly ATS-friendly"
+    }
+  },
+  "keywords_found": [
+    "Product Owner",
+    "Product Management",
+    "Agile",
+    "Backlog Management",
+    "Requirements Engineering",
+    "Stakeholder Management",
+    "Cross-functional",
+    "Roadmap",
+    "Prioritization",
+    "Strategic",
+    "Enterprise",
+    "Platform",
+    "Multi-team",
+    "Technical Requirements",
+    "CSPO Certified",
+    "Client Relations",
+    "Complex products",
+    "Software products"
+  ],
+  "keywords_missing": [
+    "AI",
+    "Artificial Intelligence",
+    "Chatbot",
+    "Conversational AI",
+    "ChatGPT",
+    "Generative AI",
+    "Microsoft Copilot",
+    "AI Product Lifecycle",
+    "OKRs",
+    "KPIs",
+    "Vendor Coordination",
+    "Integrations",
+    "Adoption",
+    "Governance"
+  ],
+  "critical_gaps": [
+    "No AI/ML experience mentioned explicitly - virtual assistant work from 2018-2019 needs emphasis",
+    "Missing Generative AI keywords (ChatGPT, Copilot, Gemini)",
+    "No KPIs/OKRs mentioned - add to skills and work highlights"
+  ],
+  "recommendations": [
+    "Emphasize AI-driven virtual assistant project from Semcon 2018-2019",
+    "Highlight AI Product Management certification (EPFL 2024-06)",
+    "Add AI/ML skills category with Generative AI, ChatGPT, LLMs, NLU",
+    "Insert OKRs, KPIs, adoption metrics keywords",
+    "Reorder work history to lead with AI-relevant experience"
+  ],
+  "optimized_score_potential": 90
+}
