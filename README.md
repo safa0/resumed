@@ -115,3 +115,12 @@ While both tools can be used from the command line, Resumed also provides a full
 ### Other features
 
 Resumed makes some compromises in terms of features, such as no local previews or YAML format support. If you miss any of these, you can combine Resumed with other tools or continue using resume-cli.
+
+## TODO: Upstream Contributions
+
+The following fix should be submitted to the original [resumed repo](https://github.com/rbardini/resumed):
+
+- **Commit `ee9045f`**: Fix local images not appearing in PDF exports
+  - Problem: Puppeteer's `setContent()` can't resolve local file paths
+  - Solution: Convert local image paths to base64 data URLs before rendering
+  - Patch: `git format-patch -1 ee9045f`
