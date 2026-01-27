@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-01-27T10:17:46.640Z",
+  "lastUpdated": "2026-01-27T14:05:57.298Z",
   "applications": [
     {
       "id": "2026-01-27-asana-product-owner-revenue-technology",
@@ -60,12 +60,22 @@
       "applied": null,
       "location": "European Union (Remote)",
       "url": "https://www.linkedin.com/jobs/view/4362334087/"
+    },
+    {
+      "id": "2026-01-27-remobi-ai-product-owner",
+      "company": "Remobi",
+      "role": "AI Product Owner",
+      "status": "applied",
+      "applied": "2026-01-27",
+      "atsScore": null,
+      "location": "European Union (Remote)",
+      "url": "https://www.linkedin.com/jobs/view/4352001115/"
     }
   ],
   "stats": {
-    "total": 6,
+    "total": 7,
     "saved": 2,
-    "applied": 4,
+    "applied": 5,
     "interviewing": 0,
     "rejected": 0,
     "withdrawn": 0,
