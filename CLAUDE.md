@@ -194,19 +194,19 @@ node bin/resumed.js render PO_resume.json --theme jsonresume-theme-stackoverflow
 
 ### Image Handling
 
-**Use local relative paths for images, NOT Gravatar URLs.**
+**Use ABSOLUTE paths for images - required for application subfolders.**
 
 ```json
 {
   "basics": {
-    "image": "profile.jpeg"
+    "image": "/Users/safa/Documents/repos/resumed/1745316410292.jpeg"
   }
 }
 ```
 
-- Place image file in same directory as resume JSON
-- HTML output will reference the image relatively
-- Gravatar requires account setup and correct MD5 hash of email
+- **ALWAYS use absolute paths** - relative paths break when rendering from `applications/` subfolders
+- The profile image is at `/Users/safa/Documents/repos/resumed/1745316410292.jpeg`
+- Never use Gravatar URLs (requires account setup and correct MD5 hash)
 
 ### Location Field
 

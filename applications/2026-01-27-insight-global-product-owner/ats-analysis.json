@@ -1,0 +1,26 @@
+{
+  "score": 69,
+  "date": "2026-01-27",
+  "breakdown": {
+    "required_skills": 15,
+    "keywords": 16,
+    "experience": 12,
+    "education": 10,
+    "action_verbs": 7,
+    "format": 9
+  },
+  "gaps": [
+    "Home Finance/Lending experience (major requirement)",
+    "KPIs not explicitly mentioned",
+    "PowerPoint/Excel not mentioned"
+  ],
+  "matches": [
+    "Product Owner experience",
+    "Agile/Scrum methodology",
+    "Stakeholder management",
+    "Technical + Business acumen",
+    "Roadmap management",
+    "Delivery experience",
+    "Cloud/microservices experience"
+  ]
+}
